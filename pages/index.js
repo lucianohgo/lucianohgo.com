@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/Layout'
-import Link from 'next/link'
-import { getSortedPostsData } from '../lib/posts'
-import utilStyles from '../styles/utils.module.css'
+import Head from 'next/head';
+import Layout, { siteTitle } from '../components/Layout';
+import Link from 'next/link';
+import { getSortedPostsData } from '../lib/posts';
+import utilStyles from '../styles/utils.module.css';
 
 export default function Home({ allPostsData }) {
   return (
@@ -11,7 +11,12 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p> Software Engineer @ QuintoAndar. Proud owner of 3 beautiful cats 🐈 Passionate about Web Development, Performance and building awesome user experiences</p>
+        <p>
+          {' '}
+          Software Engineer @ QuintoAndar. Proud owner of 3 beautiful cats 🐈
+          Passionate about Web Development, Performance and building awesome
+          user experiences
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
@@ -30,14 +35,14 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
     </Layout>
-  )
+  );
 }
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
+      allPostsData,
+    },
+  };
 }

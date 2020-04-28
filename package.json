@@ -2,10 +2,17 @@
   "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
+  "description": "Luciano H. Go.'s Home page :)",
+  "bugs": {
+    "url": "https://github.com/lucianohgo/lucianohgo.com/issues"
+  },
+  "homepage": "https://lucianohgo.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "format": "prettier --write '**/*.{js,jsx,json,css}'",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public ."
   },
   "dependencies": {
     "date-fns": "^2.12.0",
@@ -15,5 +22,23 @@
     "react-dom": "16.13.1",
     "remark": "^12.0.0",
     "remark-html": "^11.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.7",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,json,css}": [
+      "yarn format"
+    ]
   }
 }

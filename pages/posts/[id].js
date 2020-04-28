@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import Head from 'next/head';
+import { getAllPostIds, getPostData } from '../../lib/posts';
 import utilStyles from '../../styles/utils.module.css';
-import Layout from '../../components/Layout'
-import Date from '../../components/date'
+import Layout from '../../components/Layout';
+import Date from '../../components/date';
 
 export default function Post({ postData }) {
   return (
@@ -18,7 +18,7 @@ export default function Post({ postData }) {
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
-  )
+  );
 }
 
 export async function getStaticPaths() {
@@ -26,8 +26,8 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false
-  }
+    fallback: false,
+  };
 }
 
 export async function getStaticProps({ params }) {
@@ -35,7 +35,7 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      postData
-    }
-  }
+      postData,
+    },
+  };
 }
