@@ -9,6 +9,7 @@
   "homepage": "https://lucianohgo.com",
   "scripts": {
     "dev": "next dev",
+    "dev:debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
     "format": "prettier --write '**/*.{js,jsx,json,css}'",

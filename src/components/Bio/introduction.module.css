@@ -1,0 +1,21 @@
+.introductionImage {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 1.5rem 0.85rem 0 0;
+}
+
+.text {
+  max-width: 300px;
+}
+
+.picture {
+  min-width: 3.5rem;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.aside {
+  display: flex;
+}

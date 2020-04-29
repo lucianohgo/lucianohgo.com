@@ -25,10 +25,6 @@
   line-height: 1.5;
 }
 
-.borderCircle {
-  border-radius: 9999px;
-}
-
 .colorInherit {
   color: inherit;
 }
@@ -41,10 +37,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.listItem {
-  margin: 0 0 1.25rem;
 }
 
 .lightText {
