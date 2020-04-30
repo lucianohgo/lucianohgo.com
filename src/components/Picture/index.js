@@ -1,4 +1,4 @@
-const Picture = ({ file, srcWebp, srcJpg, imgProps, ...props }) => {
+export default function Picture({ file, srcWebp, srcJpg, imgProps, ...props }) {
   const webp = srcWebp || `/images/${file}.webp`;
   const jpg = srcJpg || `/images/${file}.jpg`;
 
@@ -9,6 +9,4 @@ const Picture = ({ file, srcWebp, srcJpg, imgProps, ...props }) => {
       <img src={jpg} {...imgProps} />
     </picture>
   );
-};
-
-export default Picture;
+}

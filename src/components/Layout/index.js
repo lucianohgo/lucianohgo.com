@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import styles from './layout.module.css';
-import utilStyles from '../../styles/utils.module.css';
 import Link from 'next/link';
+import utilStyles from '../../styles/utils.module.css';
+import Header from './Header';
 
-export const siteTitle = 'Luciano H. Gomes';
+const siteTitle = 'Luciano H. Gomes';
 
-export default function Layout({ children, name = siteTitle } = {}) {
+export default function Layout({ children, home, name = siteTitle } = {}) {
   return (
     <div className={styles.container}>
       <Head>
@@ -22,12 +23,10 @@ export default function Layout({ children, name = siteTitle } = {}) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
-        <nav className={`${styles.navHomeLink} ${utilStyles.headingMd}`}>
-          <Link href="/">{name}</Link>
-        </nav>
-      </header>
+      <Header name={name} home={home} />
       {children}
     </div>
   );
 }
+
+export { siteTitle };

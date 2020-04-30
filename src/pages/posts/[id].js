@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import utilStyles from '../../styles/utils.module.css';
 import Layout from '../../components/Layout';
-import Date from '../../components/date';
+import Date from '../../components/Date';
 import styles from './post.module.css';
 import Link from 'next/link';
 
