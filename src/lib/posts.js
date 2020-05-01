@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import remark from 'remark';
+import syntaxHighlight from 'remark-syntax-highlight';
+import { languages, highlight } from 'prismjs';
 import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
@@ -58,6 +60,19 @@ export async function getPostData(id) {
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html)
+    .use(syntaxHighlight, {
+      // Pass a highlight function to highlight the code
+      highlight: (code, lang) => {
+        const grammar = languages[lang];
+
+        if (grammar) {
+          return highlight(code, grammar);
+        }
+
+        console.warn(`Could not find language ${lang} to syntax highlight`);
+        return null;
+      },
+    })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
