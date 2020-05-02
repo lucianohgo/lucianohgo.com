@@ -37,6 +37,7 @@ pre {
   word-spacing: normal;
   word-break: normal;
   word-wrap: normal;
+  font-size: 14px;
 
   line-height: 1.5;
 
@@ -78,9 +79,11 @@ pre {
 }
 
 /* Inline code */
-:not(pre) > code[class*='language-'] {
-  padding: 0.1em;
-  border-radius: 0.3em;
+:not(pre) > code {
+  color: #c5c5c5;
+  background: #002b36;
+  padding: 0.2em;
+  border-radius: 0.2em;
 }
 
 .token.attr-name,
