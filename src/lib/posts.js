@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import remark from 'remark';
+import slug from 'remark-slug';
 import syntaxHighlight from 'remark-syntax-highlight';
 import { languages, highlight } from 'prismjs';
 import html from 'remark-html';
@@ -73,6 +74,7 @@ export async function getPostData(id) {
         return null;
       },
     })
+    .use(slug)
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
