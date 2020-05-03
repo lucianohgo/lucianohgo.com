@@ -1,6 +1,9 @@
 ---
 title: 'React Memoization Cheatsheet: 5 different ways to memoize and why it matters'
 date: '2020-05-02'
+description: "In the post, we'll learn a few tips and tricks about the React library Memoization tools. How to effectively use things like useMemo, useCallback, useRef and React.memo."
+cover: 'https://lucianohgo.com/images/memoization.jpg'
+coverAlt: 'Memoization graph showing expensive vs cached renders'
 ---
 
 React is improving fast and new versions pack a lot of different cool features built into the library. One of the

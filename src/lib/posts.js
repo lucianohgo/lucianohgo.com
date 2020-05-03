@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import remark from 'remark';
 import slug from 'remark-slug';
 import syntaxHighlight from 'remark-syntax-highlight';
-import { languages, highlight } from 'prismjs';
+import { highlight, languages } from 'prismjs';
 import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), 'posts');

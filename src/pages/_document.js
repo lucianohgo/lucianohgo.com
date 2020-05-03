@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { gaTrackingId } from '../lib/gtag';
 
 export default class HomepageDocument extends Document {
