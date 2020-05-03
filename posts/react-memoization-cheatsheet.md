@@ -18,6 +18,7 @@ Memoizing is a well-known concept in computer programming, aiming to **speed up 
 expensive function calls and re-using those cached results as to avoid repeating those expensive operations:
 
 ![Memoization graph showing expensive vs cached renders](/images/memoization.jpg "Memoization diagram")
+*Memoization speeding up an expensive component's render*
 
 When using React, depending on how big and complex your component tree is, **the process of rendering might be one of these
 expensive operations**. The process of [reconciliation](https://reactjs.org/docs/reconciliation.html) alone might already
