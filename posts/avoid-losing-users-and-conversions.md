@@ -18,7 +18,7 @@ Like [José M. Perez](https://jmperezperez.com/about-me/) said beautifully in hi
 >Web Performance is not only about understanding what makes a site fast. **It’s about creating awareness amongst both 
 >developers and non-developers. Performance is a feature and needs to be prioritized as such**.
 
-Especially to get buy-in from non-developers we need to size how much improving performance actually impacts business
+Especially to get buy-in from non-developers we need to size how much improving performance impacts business
 metrics, and exactly to what degree each deterioration impacts the same metrics.
 
 In __[QuintoAndar](https://quintoandar.com.br)__ we recently implemented tools that are already allowing us to do this kind
@@ -35,7 +35,7 @@ According to [Google](https://support.google.com/analytics/answer/1009409?hl=en)
 >Bounce rate is single-page sessions divided by all sessions, or the percentage of all sessions on your site in which
 >users viewed only a single page and triggered only a single request to the Analytics server.
 
-So if we have a high bounce rate, users are not staying in our website and leaving before performing any relevant
+So if we have a high bounce rate, users are not staying on our website and leaving before performing any relevant
 action. It's intuitive that a slow website might lead to more users leaving the page, but __it's hard to grasp just how
 many users we're losing for each second longer our page takes to load__, hint, it's more than you may think it is
 (well at least for us, it was):
@@ -44,26 +44,26 @@ many users we're losing for each second longer our page takes to load__, hint, i
 *In these 12 weeks, we lowered our average load time by __33.3%__ and bounce rate by __32.65%__*
 
 After seeing this trend, __we started looking to Web Performance improvements not only as a way to drive more
-conversion, but also as a tool for user acquisition__. Improving our performance metrics, leads to more users actually
+conversion but also as a tool for user acquisition__. Improving our performance metrics leads to more users
 looking at the site for two main reasons:
 
 1. Better UX: Improving performance improves everyone's usage of our product;
-2. The website actually becomes accessible to them. Users with older devices and/or slow networks start being able to
+2. The website becomes accessible to them. Users with older devices and/or slow networks start being able to
 use our product.
 
-More people using our product, usually leads to more customers down the line. But we don't just add volume. In this next
+More people using our product usually leads to more customers down the line. But we don't just add volume. In this next
 section, I'll try to show you that we're also making our funnel more efficient when we do performance optimizations.
 
 ## Conversion: Give your users the UX they deserve
 
-In [QuintoAndar](https://quintoandar.com.br), we're passionate about UX, and have been since I joined 3 years ago (go
-check out our [QuintoAndar Design Blog](https://medium.com/quintoandar-design)). We do research, lab tests and field
-tests both quantitative and qualitative and strive to empower our users through the products we provide to them.
+In [QuintoAndar](https://quintoandar.com.br), we're passionate about UX and have been since I joined 3 years ago (go
+check out our [QuintoAndar Design Blog](https://medium.com/quintoandar-design)). We do research, lab tests, and field
+tests both quantitative and qualitative, and strive to empower our users through the products we provide to them.
 
 With that experience, we've come to understand that our product's performance is an integral part of that UX so it 
 shouldn't be treated any differently and have started tracking more and more
 [User-Centric Performance Metrics](https://web.dev/user-centric-performance-metrics/) both in the
-[field](https://web.dev/user-centric-performance-metrics/#in-the-field), and in the
+[field](https://web.dev/user-centric-performance-metrics/#in-the-field) and in the
 [lab](https://web.dev/user-centric-performance-metrics/#in-the-lab). 
 
 We want to improve our users' experience, so we frame these metrics on terms that are relevant to our users:
@@ -84,7 +84,7 @@ part of the page's content is rendered on the screen. In our case, this metric i
 another metric that we heavily recommended tracking: [Largest Contentful Paint (LCP)](https://web.dev/lcp/);
 2. [First Input Delay (FID)](#interactivity): measures the time from when a user first interacts with your site 
 (i.e. when they click a link, tap a button, or use a custom, JavaScript-powered control) to the time when the browser 
-is actually able to respond to that interaction 
+is able to respond to that interaction 
 
 ### Paint
 
@@ -114,16 +114,16 @@ the load time, the user may still carry the impression that the website is slow 
 
 ### Interactivity
 
-The main questions involved in paint metrics are:
+The main questions involved in interactivity metrics are:
 
 1. __Is it usable?__: Content visible that invites interaction but cannot respond to it can be frustrating for your users
-2. __Is it delightful__: Responding to interaction may still not be enough, if such response comes with the appearence of
+2. __Is it delightful__: Responding to interaction may still not be enough if such a response comes with the appearance of
 a sluggish and janked experience.
 
 We did the same process we did for [paint](#paint) for interactivity metrics and also found impressive results
 
 ![Graph showing how conversion is affected by interactivity experience](/images/conversion-based-on-interactivity-bucket.jpg "Conversion for different Interactivity (FID) UX buckets")
-*Interactivty will directly affect your conversion*
+*Interactivity will directly affect your conversion*
 
 Some insights from that data:
 
@@ -134,7 +134,7 @@ Some insights from that data:
 
 ---
 
-## In summmary
+## In summary
 
 1. Performance is a feature: Protect it and improve it like so;
 2. Understanding user behavior helps you quantify and validate performance improvements in terms of business results;
@@ -152,5 +152,5 @@ experience
 
 ---
 
-Would you like to know more on how we track this metrics in production? Lemme know and I can follow up with a series
+Would you like to know more about how we track these metrics in production? Lemme know and I can follow up with a series
 of posts on the topic! :)
