@@ -1,6 +1,8 @@
 import { event } from './tracking';
 
 function coreVitalReportHandler({ name, delta, id }) {
+  console.log('event', name, delta, id);
+
   event({
     action: name,
     category: 'Web Vitals',
@@ -18,19 +20,8 @@ function coreVitalReportHandler({ name, delta, id }) {
   });
 }
 
-let vitals;
-
-async function getVitals() {
-  if (vitals) {
-    return vitals;
-  }
-
-  vitals = await import('web-vitals');
-  return vitals;
-}
-
 export async function setUpCoreVitalsTracking() {
-  const { getCLS, getFID, getLCP } = await getVitals();
+  const { getCLS, getFID, getLCP } = await import('web-vitals');
 
   getCLS(coreVitalReportHandler);
   getFID(coreVitalReportHandler);
