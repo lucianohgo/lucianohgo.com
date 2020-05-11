@@ -12,7 +12,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/lucianohgo"><img src="https://avatars3.githubusercontent.com/u/7462600?v=4" width="100px;" alt=""/><br /><sub><b>Luciano H. Gomes</b></sub></a><br /><a href="#infra-lucianohgo" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/lucianohgo/lucianohgo.com/commits?author=lucianohgo" title="Code">💻</a> <a href="#content-lucianohgo" title="Content">🖋</a></td>
+    <td align="center">
+      <a href="https://github.com/lucianohgo"><img src="https://avatars3.githubusercontent.com/u/7462600?v=4" width="100px;" alt=""/><br /><sub><b>Luciano H. Gomes</b></sub></a><br /><a href="#infra-lucianohgo" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/lucianohgo/lucianohgo.com/commits?author=lucianohgo" title="Code">💻</a> <a href="#content-lucianohgo" title="Content">🖋</a></td>
+      <td align="center"><a href="https://github.com/jhleitequintoandar"><img src="https://avatars3.githubusercontent.com/u/11929051?v=4" width="100px;" alt=""/><br /><sub><b>jhleitequintoandar</b></sub></a><br /><a href="https://github.com/lucianohgo/lucianohgo.com/pulls?q=is%3Apr+reviewed-by%3Ajhleitequintoandar" title="Reviewed Pull Requests">👀</a></td>
+    </td>
   </tr>
 </table>
 
