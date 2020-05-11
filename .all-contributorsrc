@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "lucianohgo",
+      "name": "Luciano H. Gomes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7462600?v=4",
+      "profile": "https://github.com/lucianohgo",
+      "contributions": [
+        "infra",
+        "code",
+        "content"
+      ]
+    }, {
       "login": "jhleitequintoandar",
       "name": "jhleitequintoandar",
       "avatar_url": "https://avatars3.githubusercontent.com/u/11929051?v=4",
