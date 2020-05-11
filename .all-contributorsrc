@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lucianohgo",
+      "name": "Luciano H. Gomes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7462600?v=4",
+      "profile": "https://github.com/lucianohgo",
+      "contributions": [
+        "infra",
+        "code",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "lucianohgo.com",
+  "projectOwner": "lucianohgo",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
