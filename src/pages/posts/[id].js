@@ -5,6 +5,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import utilStyles from '../../styles/utils.module.css';
 import Layout from '../../components/Layout';
 import Date from '../../components/Date';
+import PostsAuthors from '../../components/PostAuthors';
 import styles from './post.module.css';
 import MetaTags from '../../components/MetaTags';
 
@@ -33,6 +34,7 @@ export default function Post({ postData }) {
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
           </div>
+          <PostsAuthors authors={postData.authors} />
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
         <div className={styles.backToHome}>

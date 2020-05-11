@@ -80,6 +80,21 @@ a:hover {
   text-decoration: underline;
 }
 
+.anchor {
+  stroke: #007faa;
+  margin-left: -26px;
+  padding-right: 6px;
+  visibility: hidden;
+}
+
+h2 .anchor {
+  visibility: hidden;
+}
+
+h2:hover .anchor {
+  visibility: visible;
+}
+
 img {
   max-width: 100%;
   display: block;
