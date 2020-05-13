@@ -15,11 +15,21 @@
         "code",
         "content"
       ]
-    }, {
+    },
+    {
       "login": "jhleitequintoandar",
       "name": "jhleitequintoandar",
       "avatar_url": "https://avatars3.githubusercontent.com/u/11929051?v=4",
       "profile": "https://github.com/jhleitequintoandar",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "wescosta",
+      "name": "Wesley Costa",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1816129?v=4",
+      "profile": "https://github.com/wescosta",
       "contributions": [
         "review"
       ]
