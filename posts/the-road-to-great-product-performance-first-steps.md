@@ -3,7 +3,7 @@ title: "The Road to Great Product Performance: The First Steps"
 date: '2020-05-13'
 description: "The first steps you should take to start tackling performance and how to speed them up"
 cover: 'https://lucianohgo.com/images/the-road-to-great-product-performance-first-steps/road.jpg'
-coverAlt: 'The road to a performant product is long, the sooner you start the better'
+coverAlt: 'The road to a performant product is long, the sooner you start, the better'
 authors:
   - lucianohgo
 tags:
@@ -12,20 +12,20 @@ tags:
   - product-management
 ---
 
-When we're building our product, we're passionate about enabling users to do more, empowering them. This passion leads to the creation of more and more ways the users can use our products to better accomplish their goals. This rarely leaves us the time to tune and optimize and it's common to accumulate a lot of performance technical debt. **At some point, we realize as a company that [neglecting performance is directly affecting our business results](/posts/avoid-losing-users-and-conversions.md)**. When that day comes, what should we do?
+When we're building our product, we're passionate about enabling users to do more, empowering them. This passion leads to the creation of more and more ways the users can use our products to better accomplish their goals. Working like this rarely leaves us the time to tune and optimize, and it's common to accumulate a lot of performance technical debt. **At some point, we realize as a company that [neglecting performance is directly affecting our business results](/posts/avoid-losing-users-and-conversions.md)**. When that day comes, what should we do?
 
-!["A long asphalt road surrounded by trees"](/images/the-road-to-great-product-performance-first-steps/road.jpg "The road to have a performant product is long, the sooner you start the better")
-*The road to a performant product is long, the sooner you start the better - Photo by [Matt Duncan](https://unsplash.com/@foxxmd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+!["A long asphalt road surrounded by trees"](/images/the-road-to-great-product-performance-first-steps/road.jpg "The road to have a performant product is long, the sooner you start, the better")
+*The road to a performant product is long, the sooner you start, the better - Photo by [Matt Duncan](https://unsplash.com/@foxxmd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
-Note: In [QuintoAndar](https://quintoandar.com.br), we're still walking the path towards great product performance, furthermore not all of these steps were the first steps that we took, but rather they're assembled based on what we believe, given our current experience, would've been the best first steps to take, after all:
+Note: In [QuintoAndar](https://quintoandar.com.br), we're still walking the path towards an excellent product performance. Furthermore not all of these steps were the first steps that we took, but instead they're assembled based on what we believe, given our current experience, would've been the best first steps to take, after all:
 
-> “Life can only be understood backwards, but it must be lived forward”
+> “Life can only be understood backwards, but it must be lived forward.”
 >
 > -- [Søren Kierkegaard](https://en.wikipedia.org/wiki/S%C3%B8ren_Kierkegaard)
 
 The way we structured this post aims at better explaining why each of the steps is important and what it accomplishes:
 
-- [The Challenges with tackling Performance](#the-challenges-with-tackling-performance)
+- [Challenges with tackling Performance](#challenges-with-tackling-performance)
 - [The Steps](#the-steps)
 - [Step One: Set up a Group](#step-one-set-up-a-group)
 - [Step Two: Measure and Lock](#step-two-measure-and-lock)
@@ -41,17 +41,17 @@ The way we structured this post aims at better explaining why each of the steps 
 
 Also, while we're focused on starting to pay performance technical debt, all these steps can be implemented from day one and help you shape a better product from the get-go.
 
-## The Challenges with tackling Performance
+## Challenges with tackling Performance
 
 Already familiar with the challenges? [Go straight to the steps ⏭](#the-steps)
 
-There has never been so many good resources on how to optimize your product available to the general people. Yet it's still rare to see companies that get to spend time working on this. We understand much of what causes our applications to be slow, but we never get around to prioritizing fixing it.
+There has never been so many excellent resources on how to optimize your product available to the general public. Yet it's still rare to see companies that get to spend time working on this. We understand much of what causes our applications to be slow, but we never get around to prioritizing fixing it.
 
-When developing features, the focus is usually on enabling users to do more, empowering them. We have a limited amount of time so we usually focus on things we can measure and test. We want **quantifiable and possible to validate hypotheses**. So we gear our backlog towards working with features that can validate hypotheses like "If we recommend users products that are similar to the ones he is currently showing interest in, we will be able to increase our conversion by X%".
+When developing features, the focus is usually on enabling users to do more, empowering them. We have a limited amount of time, so we typically focus on things we can measure and test. We want **quantifiable and possible to validate hypotheses**. So we gear our backlog towards working with features that can validate assumptions like "If we recommend users products that are similar to the ones he is currently showing interest in, we will be able to increase our conversion by X%".
 
-> We have a limited amount of time so we usually focus on things we can measure and test. We want **quantifiable and possible to validate hypotheses**.
+> We have a limited amount of time, so we typically focus on things we can measure and test. We want **quantifiable and possible to validate hypotheses**.
 
-What this means to technical debt is that in the trade-off battle of productivity x quality, **if we can't prove just how much following a quality standard will be positive instead of loosening it, productivity will be prioritized**. I find it that when this happens, more commonly we are failing at defending our point of view other times we're wrong about following that quality standard at that time. That's why much of what we're gonna talk about here is focused on providing you with those arguments, qualitative and quantitative and.
+What this means to technical debt is that in the trade-off battle of productivity x quality, **if we can't prove just how much following a quality standard will be positive, productivity will be prioritized**. When this happens, more commonly, we are failing at defending our point of view other times we're wrong about following that quality standard at that time. That's why much of what we're gonna talk about here is focused on providing you with those arguments, qualitative and quantitative and.
 
 ![Graph showing the trend of decrease in bounce rate and average load time](/images/bounce-rate-vs-average-load-time.jpg "Bounce Rate vs Average Load time")
 *Our bounce rate vs the Average Load time. In these 12 weeks, we lowered our average load time by __33.3%__ and bounce rate by __32.65%__. We have the arguments, but we need to gather them!*
@@ -61,12 +61,12 @@ Performance improvements often begin as the work of one or few people in the com
 As this effort goes on, so many challenges start to pile on:
 
 - A lot more people are adding features than optimizing;
-- Knowledge isn't passed on how and why optimizations were done and people don't even grasp why it is important;
+- Knowledge isn't passed on how and why optimizations were done, and people don't even grasp why it is needed;
 - Doing things the optimized way is harder than the un-optimized way, so examples of un-optimized code start to pile on;
-- New performance techniques emerge, like the recent implementation of picture and people start to try using them before understanding the underlying application;
+- New performance techniques emerge, like the recent implementation of picture and people begin using them before understanding the underlying application;
 - [Small optimizations don't bring in so much value](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/) and with limited time to dedicate and working against a lot of new code, small optimizations end up being all people can focus on.
 
-If Performance isn't widely accepted as a core value of the product, it will soon be neglected as doing things the right way imposes more effort, and [we humans tend to naturally choose the path of least resistance](https://en.wikipedia.org/wiki/Principle_of_least_effort). Our main job, if we ever want a sustainable performance culture, needs to be focused on: 1. Lowering this resistance and 2. Showing purpose and opportunity of working on this.
+If performance isn't widely accepted as a core value of the product, it will soon be neglected as doing things the right way imposes more effort, and [we humans tend to naturally choose the path of least resistance](https://en.wikipedia.org/wiki/Principle_of_least_effort). Our main job, if we ever want a sustainable performance culture, needs to be focused on: 1. Lowering this resistance and 2. Showing purpose and opportunity of working on this.
 
 ## The Steps
 
@@ -82,23 +82,23 @@ There are a lot of other things we did and each of these points merits a post of
 
 > Gather individuals that are interested in the subject and give them support and incentive to keep the discussion alive, create, evolve and maintain the tools;
 
-In [QuintoAndar](https://quintoandar.com.br), we're very keen on providing more autonomy and responsibility. The way this plays out is that we have many mission-oriented teams. We organize ourselves largely based on [Spotify's team structure](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) and it has worked wonders for us. Our Squads become experts in a domain and part of the product and can greatly further the efforts on these fronts. Because of this, we've been able to move very fast to solve our main users concerns.
+In [QuintoAndar](https://quintoandar.com.br), we're very keen on providing more autonomy and responsibility. The way this plays out is that we have many mission-oriented teams. We organize ourselves primarily based on [Spotify's team structure](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf) and it has worked wonders for us. Our Squads become experts in a domain and part of the product and can significantly further the efforts on these fronts. Because of this, we've been able to move very fast to solve our primary users' concerns.
 
 !["The Spotify Model: Tribes, Squads, Chapters & Guilds"](/images/the-road-to-great-product-performance-first-steps/agile-at-spotify.jpg "The Spotify Model: Tribes, Squads, Chapters & Guilds, The Spotify Model")
 *__The Spotify Model__: Tribes, Squads, Chapters & Guilds*
 
 There is a downside to everything, and the potential downside to full autonomy is a loss of economies of
-scale. A engineer in squad A may be wrestling with a performance issue that the engineers in squad B solved last week. That's why, when it comes to subjects that are deep and core to a product's experience, we highly recommend having a focused group that will at the very least discuss how to evolve that topic within the company.
+scale. An engineer in squad A may be wrestling with a performance issue that the engineers in squad B solved last week. That's why, when it comes to subjects that are deep and core to a product's experience, we highly recommend having a focused group that will, at the very least, discuss how to evolve that topic within the company.
 
 In our structure, we roughly had three options:
 
-1. **Performance Chapter**: The chapter is a small family of people having similar skills and working within the same general competency area. This is great for knowledge sharing and to evolve tools and practices within the company, but it's harder to implement and organize since it involves adding to the core competencies shared in the company;
+1. **Performance Chapter**: The chapter is a small family of people having similar skills and working within the same general competency area. It is great for knowledge sharing and to evolve tools and practices within the company, but it's harder to implement and organize since it involves adding to the core competencies shared in the company;
 2. **Performance Guild**: A Guild is a more organic and wide-reaching “community of interest”, a group of people that want to share knowledge, tools, code, and practices. It's great for discussion and knowledge sharing, but we've found that it doesn't perform well as a well to maintain governance over tools to move big projects forward;
-3. **Performance functional team**: Assembling a small set of people who have prior knowledge and interest in deepening that knowledge and having them do most of the ground work in creating and maintaining the tools that will be used company-wide. It's also usually a good idea to have them battle test this tools by doing important optimizations in the product.
+3. **Performance functional team**: Assembling a small set of people who have prior knowledge and interest in deepening that knowledge and having them do most of the ground work in creating and maintaining the tools that will be used company-wide. It's also usually a good idea to have them battle test these tools by doing essential optimizations in the product.
 
-> Note that **not one of these treats performance as a job of the group alone, but rather rely on leveraging the company structure to improve the product's performance and just makes this process easier** by providing the set of practices and tools needed.
+> Note that **not one of these treats performance as a job of the group alone, but instead rely on leveraging the company structure to improve the product's performance and just makes this process easier** by providing the set of practices and tools needed.
 
-All of these are great and a valid first step towards bring the topic to life in your company, but each organization has its particularities. Consider what works best for you, start with the easier group structure and move fast to the ideal.
+All of these are great and an excellent first step towards bring the topic to life in your company, but each organization has its particularities. Consider what works best for you, start with the more natural group structure and move fast to the ideal.
 
 ## Step Two: Measure and Lock
 
@@ -134,28 +134,28 @@ Locking here means trying our hardest to catch code that can degrade performance
 >
 > -- [Philip Walton](https://web.dev/user-centric-performance-metrics/)
 
-When we think about this, we usually understand the regression side and why we'd like to prevent that, but we oftentimes miss the main point that **better audits and CI are our greatest tools for automatic knowledge sharing**. When we design our audits and CI, we must understand that and work towards sharing knowledge and raising the bar of the company as a whole. When engineers feel that the constraints and limitations are quality standards that will enable them to grow and not hindrances, we've met our goal with our CI pipeline.
+When we think about this, we usually understand the regression side and why we'd like to prevent that, but we oftentimes miss the main point that **better audits and CI are our greatest tools for automatic knowledge sharing**. When we design our checks and CI, we must understand that and work towards sharing knowledge and raising the bar of the company as a whole. When engineers feel that the constraints and limitations are quality standards that will enable them to grow and not hindrances, we've met our goal with our CI pipeline.
 
 > Better audits and CI are our greatest tools for automatic knowledge sharing
 
 We're still diligently working in our audits and CI pipeline and far from perfect, but our performance tests currently consists of:
 
 1. [Lighthouse CI Performance Budgets](https://web.dev/use-lighthouse-for-performance-budgets/): We use these to prevent increases in Javascript size, Image Size, Requests Counts and Total Size of each of our main entry points -- Our [Homepage](http://quintoandar.com.br/), our [Search Page](http://quintoandar.com.br/alugar/imovel/sao-paulo-sp-brasil), and our [Listing Page](https://www.quintoandar.com.br/imovel/892879684). This is our most important audit and the one that gives us more safety, but the others allows us to better understand the issues;
-2. [Danger](https://github.com/danger/danger) script for file sizes: While the most important think is measuring the impact in each route separately, distinct file sizes also impact our users in different ways, so we track the sizes on our must important files, either because they're very common on different pages or why they're already big, and try not to increase them too often;
+2. [Danger](https://github.com/danger/danger) script for file sizes: While the most important thing is measuring the impact in each route separately, distinct file sizes also impact our users in different ways, so we track the sizes on our most important files, either because they're widespread on different pages or why they're already big, and try not to increase them too often;
 
 !["Shows two tests that we run on every pull request, the performance budgets and chunk size ones"](/images/the-road-to-great-product-performance-first-steps/audits-ci.jpg "CI steps run on every pull request")
-*CI steps that we run on every PR. The left one is the lighthouse performance Budgets and the right one is our chunk size budget audit*
+*CI steps that we run on every PR. The left one is the lighthouse performance Budgets, and the right one is our chunk size budget audit*
 
-We're currently working on adding more audits and experimenting new ones. Since we're directly impacting how code is shipped in the company, before being used widely we must first guarantee that each audit:
+We're currently working on adding more audits and experimenting new ones. Since we're directly impacting how code is shipped in the company, before being used widely, we must first guarantee that each audit:
 
 1. **Does not** give false negatives;
-2. **Minimizes** false positives: This is the goal, but the former is a restriction. If an audit gives too many false negatives, people will lose faith in its usefulness. This is worse than not having the audit since it's wasting developer time and patience.
+2. **Minimizes** false positives: This is the goal, but the former is a restriction. If an audit gives too many false negatives, people will lose faith in its usefulness. False positives are worse than not having the check since it's wasting developer time and patience.
 
 ## Step Three: Make performance something that the Company values
 
 > Share learnings, the potential in results and what was already achieved to engage the Product Management, Design and Business areas of the company. Build tools to lower the barriers and incentivize the Engineering team.
 
-Some of the work done in the previous steps allows us to shed a light on how important Performance is for our business, but we need to put it to work:
+Some of the work done in the previous steps allows us to shed light on how important Performance is for our business, but we need to put it to work:
 
 ### 1. Correlate business and performance metrics and display them in strategic meetings
 
@@ -165,7 +165,7 @@ If you've set up your Real User Metrics collection in a way you can correlate th
 
 In order for users to barely see a difference in time duration, performance has to be changed by a minimum of 20%. Ideally, we should [aim for 30% speed improvements](https://www.machmetrics.com/speed-blog/highlights-perfmatters-2018-web-performance-conference/). This will give you meaningful work to do, perceived by all your users and by the people who work in the company. Something that is clearly felt will hurt when it goes away.
 
-The good news is, there will usually be a [lot of low hanging fruits](https://mediatemple.net/blog/web-development-tech/low-hanging-fruit-web-performance/). Find these and start solving them, some common ones are:
+The good news is, there will usually be a [lot of low hanging fruits](https://mediatemple.net/blog/web-development-tech/low-hanging-fruit-web-performance/). Find these and start solving them; some common ones are:
 
 1. Using [Brotli](https://brotli.org/): This usually single-handedly lowers your bundle size by 30% and is [very widely available](https://caniuse.com/brotli). Use Brotli when you can, for all other cases, make sure you're using Gzip
 2. Improving your Code Splitting:
@@ -189,20 +189,20 @@ Do the work for Step two and make performance reports and budgets something that
 
 1. Automatic bundle analysis report on every pull request: For every single pull request, we publish runnable [bundle analysis reports](https://www.npmjs.com/package/webpack-bundle-analyzer) to help on debugging and finding the root cause of issues
 2. Application size difference on every pull request: A short report that shows how each part of our application varied in size and gives a quick overview of where performance was improved and deteriorated;
-3. Lighthouse runs that can be compared with previous builds: We use [lighthouse ci](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md) for this and it really helps understand what each and every commit has done to important performance metrics
+3. Lighthouse runs that can be compared with previous builds: We use [lighthouse ci](https://github.com/GoogleChrome/lighthouse-ci/blob/master/docs/getting-started.md) for this, and it really helps understand what each and every commit has done to important performance metrics
 4. Performance-related forum: We've set up a channel where people can ask questions, request for tools, share knowledge and discuss the topic in general.
 
-!["Our bundle reports: the image shows two of the reports we publish with each pull request, one to help with in-depth debugging and other one to give a high level view of what changed regarding application size"](/images/the-road-to-great-product-performance-first-steps/debugging-tools.png "Our bundle reports: Making debugging and investigation easy helps lower the barrier for performance optimizations")
+!["Our bundle reports: the image shows two of the reports we publish with each pull request, one to help with in-depth debugging and another one to give a high-level view of what changed regarding application size"](/images/the-road-to-great-product-performance-first-steps/debugging-tools.png "Our bundle reports: Making debugging and investigation easy helps lower the barrier for performance optimizations")
 *Our bundle reports: Making debugging and investigation easy helps lower the barrier for performance optimizations*
 
-When we're successful in engaging and showing the importance of the matter to the rest of the company, it will reflect on Designs that have performance in mind, on prioritization of performance optimizations as part of the pipelines of Product teams, and on more relevance and investment towards performance being made consistently. We must remember though, that this isn't the end goal, **the end goal here is providing our users with best-in-class User Experience. Working on performance is often a requirement to achieve that goal and there's only so much we can post-pone it.**
+When we're successful in engaging and showing the importance of the matter to the rest of the company, it will reflect on Designs that have performance in mind, on Product teams prioritizing performance optimizations, and on consistent investment in performance being made company-wide. We must remember that this isn't the end goal; **the end goal here is providing our users with best-in-class User Experience. Working on performance is often a requirement to achieve that goal, and there's only so much we can post-pone it.**
 
 ---
 
 ## Conclusion
 
 - The sooner you start working on your product's performance, the better;
-- Knowledge and engagement are the most important challenges to solve so focus on that;
+- Knowledge and engagement are the most critical challenges to solve so focus on that;
 - Performance constraints will raise the bar for your engineers and provide great value for your users, make sure everyone understand that and the cycle may be self-reinforcing;
 - Set up a group;
 - Measure and Lock;
