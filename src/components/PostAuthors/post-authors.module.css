@@ -1,6 +1,6 @@
 .authors {
   display: grid;
-  margin-top: 2rem;
+  margin-top: 1rem;
   grid-column-gap: 16px;
   grid-row-gap: 32px;
   grid-template-columns: 1fr;

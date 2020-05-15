@@ -10,6 +10,9 @@ tags:
   - performance
   - analytics
   - product-management
+appearsIn:
+  - slug: "the-road-to-great-product-performance-first-steps"
+    title: "The Road to Great Product Performance: The First Steps"
 ---
 
 Improving and protecting your website performance can directly affect your results. Understanding just how much that is
@@ -142,9 +145,7 @@ Some insights from that data:
 3. Interactivity affects heavily both mobile and desktop users;
 4. Long wait times for interactivity will tax the user experience beyond a single Session.
 
----
-
-## In summary
+## Conclusion
 
 1. Performance is a feature: Protect it and improve it like so;
 2. Understanding user behavior helps you quantify and validate performance improvements in terms of business results;
@@ -154,13 +155,13 @@ the load time, the user may still carry the impression that the website is slow 
 5. Performance has multiple ways that it can be tracked and improved each composing a relevant part of the users'
 experience
 
+---
+
 ## See Also
 
 1. [Metrics -- web.dev](https://web.dev/metrics)
 2. [Fostering a Web Performance Culture -- José M. Perez](https://jmperezperez.com/fostering-web-performance-culture/)
 3. [Load Performance -- Web Fundamentals](https://developers.google.com/web/fundamentals/performance/get-started)
-
----
 
 Would you like to know more about how we track these metrics in production? Lemme know and I can follow up with a series
 of posts on the topic! :)

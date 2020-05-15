@@ -274,6 +274,8 @@ function TracedComponent({ trace, ...props}) {
 }
 ```
 
+---
+
 ## See Also
 
 0. [React Top Level API -- React](https://reactjs.org/docs/react-api.html);

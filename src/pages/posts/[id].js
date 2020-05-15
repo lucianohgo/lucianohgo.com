@@ -9,6 +9,7 @@ import PostsAuthors from '../../components/PostAuthors';
 import styles from './post.module.css';
 import MetaTags from '../../components/MetaTags';
 import Bio from '../../components/Bio';
+import { AppearsIn } from '../../components/AppearsIn';
 
 const GITHUB_USERNAME = 'lucianohgo';
 const GITHUB_REPO_NAME = 'lucianohgo.com';
@@ -42,6 +43,10 @@ export default function Post({ id, postData }) {
           <h1 className={utilStyles.headingXl}>{postData.title}</h1>
           <div className={utilStyles.lightText}>
             <Date dateString={postData.date} />
+            <AppearsIn
+              className={styles.appearsIn}
+              posts={postData.appearsIn}
+            />
           </div>
           <PostsAuthors authors={postData.authors} />
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />

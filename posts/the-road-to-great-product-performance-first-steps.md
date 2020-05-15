@@ -1,6 +1,6 @@
 ---
 title: "The Road to Great Product Performance: The First Steps"
-date: '2020-05-13'
+date: '2020-05-15'
 description: "The first steps you should take to start tackling performance and how to speed them up"
 cover: 'https://lucianohgo.com/images/the-road-to-great-product-performance-first-steps/road.jpg'
 coverAlt: 'The road to a performant product is long, the sooner you start, the better'
@@ -197,8 +197,6 @@ Do the work for Step two and make performance reports and budgets something that
 
 When we're successful in engaging and showing the importance of the matter to the rest of the company, it will reflect on Designs that have performance in mind, on Product teams prioritizing performance optimizations, and on consistent investment in performance being made company-wide. We must remember that this isn't the end goal; **the end goal here is providing our users with best-in-class User Experience. Working on performance is often a requirement to achieve that goal, and there's only so much we can post-pone it.**
 
----
-
 ## Conclusion
 
 - The sooner you start working on your product's performance, the better;
@@ -209,6 +207,8 @@ When we're successful in engaging and showing the importance of the matter to th
 - Make performance something that the Company values.
 
 Do you think the main three steps should contain something else? Would you like to have a more in-depth analysis on any or all of the points above? [Let me know](https://twitter.com/hg_Luciano) so we can learn together :)
+
+---
 
 ## See Also
 

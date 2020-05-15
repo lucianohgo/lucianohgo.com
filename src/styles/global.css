@@ -87,6 +87,12 @@ a:hover {
   visibility: hidden;
 }
 
+hr {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+
 h2 .anchor {
   visibility: hidden;
 }
