@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
         <title>{name}</title>
       </Head>
       <MetaTags title={name} description={description} />
-      <Bio name={name} />
+      <Bio />
       <main>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Posts</h2>

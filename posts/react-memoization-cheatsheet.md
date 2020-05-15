@@ -4,6 +4,12 @@ date: '2020-05-02'
 description: "In the post, we'll learn a few tips and tricks about the React library Memoization tools. How to effectively use things like useMemo, useCallback, useRef and React.memo."
 cover: 'https://lucianohgo.com/images/memoization.jpg'
 coverAlt: 'Memoization graph showing expensive vs cached renders'
+authors:
+  - lucianohgo
+tags:
+  - react
+  - javascript
+  - rendering
 ---
 
 React is improving fast and new versions pack a lot of different cool features built into the library. One of the
@@ -27,7 +33,7 @@ can impose a heavy tax on the user experience, making your UI non-responsive and
 meet [RAIL's goals and guidelines](https://developers.google.com/web/fundamentals/performance/rail#goals-and-guidelines)
 we have 50ms of time to do computations before we actually respond to user input.
 
-A heavy, unresponsive and sluggish UI can lead to frustrated users and a sense of fatigue while using your application 
+A heavy, unresponsive and sluggish UI can lead to frustrated users and a sense of fatigue while using your application
 and on React application avoiding re-renders is usually one of the most impactful performance improvements you can do on
 [Rendering Performance](https://developers.google.com/web/fundamentals/performance/rendering)
 
@@ -85,7 +91,7 @@ class MyComponent extends React.Component {
     // and state.active changed
     return this.props.id !== nextProps.id &&
            this.state.active !== nextState.active;
-  }  
+  }
 
   render(props) {
     return <div />
@@ -114,7 +120,7 @@ Don't worry though, React ships with some cool helpers for that too :)
 To memoize functions, we can use [`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback)
 
 ```jsx
-// Creating a memoized callback: 
+// Creating a memoized callback:
 const memoizedCallback = useCallback(
   () => {
     doSomething(a, b);
@@ -135,7 +141,7 @@ function MyComponent({ id, ...props }) {
 
   return (
     // If Button is memoized, it will only rerender if id changed
-    <Button onClick={onButtonClick}>I'm a button</Button> 
+    <Button onClick={onButtonClick}>I'm a button</Button>
   );
 }
 
@@ -152,7 +158,7 @@ another way](./#consistent-reference-when-contents-do-not-change)
 
 Up until now, we were memoizing values to prevent the render from happening. With `useMemo` however, we can prevent
 heavy computation from happening as well by storing a value in memory.
- 
+
 ```jsx
 // computeExpensiveValue only called if a or b change value
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
@@ -177,7 +183,7 @@ function ProfilePage({
     name,
     phone: format(phone),
   }), [name, phone]);
- 
+
   // Only gets called again if visitedLocations change
   const visited = useMemo(
     () => calculateClusters(visitedLocations),
@@ -222,7 +228,7 @@ function ProfileData({
   id,
 }) {
   const intervalRef = useRef();
-  
+
   useEffect(() => {
     const intervalId = setInterval(() => {
         updateData(id)
@@ -249,12 +255,12 @@ We can use it to **get a reference to initial prop values as well**:
 
 ```jsx
 function TracedComponent({ trace, ...props}) {
-  // keep reference to the initial values         
+  // keep reference to the initial values
   const { current: initialValues } = useRef({
-      trace, 
+      trace,
       params: {
         traceName: 'component',
-        ...props 
+        ...props
     }
   })
 
@@ -267,6 +273,8 @@ function TracedComponent({ trace, ...props}) {
   return <Component {...props} />
 }
 ```
+
+---
 
 ## See Also
 

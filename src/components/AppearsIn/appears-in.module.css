@@ -1,0 +1,17 @@
+.commaList {
+  display: inline;
+  list-style: none;
+  padding: 0 0.2rem;
+}
+
+.commaListItem {
+  display: inline;
+}
+
+.commaListItem:after {
+  content: ', ';
+}
+
+.commaListItem:last-child:after {
+  content: '';
+}

@@ -1,3 +1,12 @@
-.backToHome {
+.postAside {
   margin: 3rem 0 0;
+}
+
+.postFooter {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.appearsIn {
+  margin: 0.2rem 0 0 0;
 }

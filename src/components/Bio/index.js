@@ -1,8 +1,11 @@
+import React from 'react';
 import styles from './introduction.module.css';
 import Picture from '../Picture';
 import PersonSchema from './PersonSchema';
 
-export default function Bio({ name }) {
+const name = 'Luciano H. Gomes';
+
+export default function Bio() {
   return (
     <aside className={styles.aside}>
       <PersonSchema name={name} />

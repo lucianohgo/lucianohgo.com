@@ -4,6 +4,15 @@ date: '2020-05-04'
 description: "Understand how improving and protecting your website performance can affect your results"
 cover: 'https://lucianohgo.com/images/snail-slow.jpg'
 coverAlt: 'Snail going over a metal pipe slowly'
+authors:
+  - lucianohgo
+tags:
+  - performance
+  - analytics
+  - product-management
+appearsIn:
+  - slug: "the-road-to-great-product-performance-first-steps"
+    title: "The Road to Great Product Performance: The First Steps"
 ---
 
 Improving and protecting your website performance can directly affect your results. Understanding just how much that is
@@ -15,7 +24,7 @@ will give you and your team a powerful tool and a new way to impact your users' 
 Like [José M. Perez](https://jmperezperez.com/about-me/) said beautifully in his article
 [Fostering a Web Performance Culture](https://jmperezperez.com/fostering-web-performance-culture/):
 
->Web Performance is not only about understanding what makes a site fast. **It’s about creating awareness amongst both 
+>Web Performance is not only about understanding what makes a site fast. **It’s about creating awareness amongst both
 >developers and non-developers. Performance is a feature and needs to be prioritized as such**.
 
 Especially to get buy-in from non-developers we need to size how much improving performance impacts business
@@ -25,8 +34,12 @@ In __[QuintoAndar](https://quintoandar.com.br)__ we recently implemented tools t
 of analysis, and I'd like to share with you some of these findings focusing on two things that are usually very important
 for any business:
 
-1. [User Acquisition](#user-acquisition-bounce-rate)
-2. [Conversion](#conversion-give-your-users-the-ux-they-deserve)
+- [User Acquisition: Bounce Rate](#user-acquisition-bounce-rate)
+- [Conversion: Give your users the UX they deserve](#conversion-give-your-users-the-ux-they-deserve)
+  - [Paint](#paint)
+  - [Interactivity](#interactivity)
+- [In summary](#in-summary)
+- [See Also](#see-also)
 
 ## User Acquisition: Bounce Rate
 
@@ -60,11 +73,11 @@ In [QuintoAndar](https://quintoandar.com.br), we're passionate about UX and have
 check out our [QuintoAndar Design Blog](https://medium.com/quintoandar-design)). We do research, lab tests, and field
 tests both quantitative and qualitative, and strive to empower our users through the products we provide to them.
 
-With that experience, we've come to understand that our product's performance is an integral part of that UX so it 
+With that experience, we've come to understand that our product's performance is an integral part of that UX so it
 shouldn't be treated any differently and have started tracking more and more
 [User-Centric Performance Metrics](https://web.dev/user-centric-performance-metrics/) both in the
 [field](https://web.dev/user-centric-performance-metrics/#in-the-field) and in the
-[lab](https://web.dev/user-centric-performance-metrics/#in-the-lab). 
+[lab](https://web.dev/user-centric-performance-metrics/#in-the-lab).
 
 We want to improve our users' experience, so we frame these metrics on terms that are relevant to our users:
 
@@ -76,15 +89,15 @@ We want to improve our users' experience, so we frame these metrics on terms tha
 | __Is it delightful?__        	| Are the interactions smooth and natural, free of lag and jank?   	|
 *Performance metrics Questions table - taken from [web.dev's User-Centric Performance Metrics](https://web.dev/user-centric-performance-metrics/)*
 
-There are many different metrics we use for each of these steps, but we'll focus on how two important ones 
+There are many different metrics we use for each of these steps, but we'll focus on how two important ones
 have affected our conversion metrics:
 
-1. [First Contentful Paint (FCP)](#paint): Measures the time from when the page starts loading to when any 
+1. [First Contentful Paint (FCP)](#paint): Measures the time from when the page starts loading to when any
 part of the page's content is rendered on the screen. In our case, this metric is, as of now, very close to the value of
 another metric that we heavily recommended tracking: [Largest Contentful Paint (LCP)](https://web.dev/lcp/);
-2. [First Input Delay (FID)](#interactivity): measures the time from when a user first interacts with your site 
-(i.e. when they click a link, tap a button, or use a custom, JavaScript-powered control) to the time when the browser 
-is able to respond to that interaction 
+2. [First Input Delay (FID)](#interactivity): measures the time from when a user first interacts with your site
+(i.e. when they click a link, tap a button, or use a custom, JavaScript-powered control) to the time when the browser
+is able to respond to that interaction
 
 ### Paint
 
@@ -95,9 +108,9 @@ to the request the user made. If we don't respond quickly, a lot of our users wi
 leave altogether;
 2. __Is it useful?__: A lot of pages are mostly about content, and the content of a page is what makes it useful;
 
-Based on benchmark values from 
+Based on benchmark values from
 [page speed insights](https://developers.google.com/speed/docs/insights/v5/about#distribution), we classified our Users'
-experience in what we called UX buckets. The results we had classifying user paint experience for one of our most 
+experience in what we called UX buckets. The results we had classifying user paint experience for one of our most
 important conversion metrics were impressive:
 
 ![Graph showing how conversion is affected by paint experience](/images/conversion-based-on-paint-ux-bucket.jpg "Conversion for different Paint UX buckets")
@@ -132,9 +145,7 @@ Some insights from that data:
 3. Interactivity affects heavily both mobile and desktop users;
 4. Long wait times for interactivity will tax the user experience beyond a single Session.
 
----
-
-## In summary
+## Conclusion
 
 1. Performance is a feature: Protect it and improve it like so;
 2. Understanding user behavior helps you quantify and validate performance improvements in terms of business results;
@@ -144,13 +155,13 @@ the load time, the user may still carry the impression that the website is slow 
 5. Performance has multiple ways that it can be tracked and improved each composing a relevant part of the users'
 experience
 
+---
+
 ## See Also
 
 1. [Metrics -- web.dev](https://web.dev/metrics)
 2. [Fostering a Web Performance Culture -- José M. Perez](https://jmperezperez.com/fostering-web-performance-culture/)
 3. [Load Performance -- Web Fundamentals](https://developers.google.com/web/fundamentals/performance/get-started)
-
----
 
 Would you like to know more about how we track these metrics in production? Lemme know and I can follow up with a series
 of posts on the topic! :)
