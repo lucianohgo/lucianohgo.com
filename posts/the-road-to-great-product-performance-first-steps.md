@@ -12,7 +12,7 @@ tags:
   - product-management
 ---
 
-When we're building our product, we're passionate about enabling users to do more, empowering them. This passion leads to the creation of more and more ways the users can use our products to better accomplish their goals. Working like this rarely leaves us the time to tune and optimize, and it's common to accumulate a lot of performance technical debt. **At some point, we realize as a company that [neglecting performance is directly affecting our business results](/posts/avoid-losing-users-and-conversions.md)**. When that day comes, what should we do?
+When we're building our product, we're passionate about enabling users to do more, empowering them. This passion leads to the creation of more and more ways the users can use our products to better accomplish their goals. Working like this rarely leaves us the time to tune and optimize, and it's common to accumulate a lot of performance technical debt. **At some point, we realize as a company that [neglecting performance is directly affecting our business results](/posts/avoid-losing-users-and-conversions)**. When that day comes, what should we do?
 
 !["A long asphalt road surrounded by trees"](/images/the-road-to-great-product-performance-first-steps/road.jpg "The road to have a performant product is long, the sooner you start, the better")
 *The road to a performant product is long, the sooner you start, the better - Photo by [Matt Duncan](https://unsplash.com/@foxxmd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
@@ -116,7 +116,7 @@ We've always had an underlying feeling that performance was an issue for our use
 
 Since we started measuring and tagging our users based on how fast the product was for them, we've been able to better understand how their behavior is impacted.
 
-[I've written about this](/posts/avoid-losing-users-and-conversions.md) and also [there's a lot of relevant content about it](#see-also), so I'll just leave the main points here:
+[I've written about this](/posts/avoid-losing-users-and-conversions) and also [there's a lot of relevant content about it](#see-also), so I'll just leave the main points here:
 
 1. Start collecting [Real User Metrics](https://web.dev/user-centric-performance-metrics/) as soon as possible;
 2. Track this in a way you can correlate it with your business and user metrics;
