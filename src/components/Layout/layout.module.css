@@ -10,9 +10,15 @@
 
 .nav {
   display: flex;
+  justify-content: space-between;
 }
 
 .navHomeLink {
   font-family: 'Poppins', sans-serif;
   font-weight: 900;
+}
+
+.navLinks {
+  align-self: flex-end;
+  list-style-type: none;
 }
