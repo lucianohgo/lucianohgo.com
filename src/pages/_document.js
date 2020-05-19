@@ -25,6 +25,10 @@ export default class HomepageDocument extends Document {
             gtag('config', '${gaTrackingId()}', {
               page_path: window.location.pathname,
             });
+            
+            if(window.matchMedia("(prefers-color-scheme: dark)").matches) {
+              document.documentElement.setAttribute('data-theme', 'dark');
+            }
           `,
             }}
           />

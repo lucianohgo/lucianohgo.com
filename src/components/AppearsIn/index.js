@@ -10,7 +10,7 @@ export function AppearsIn({ posts, ...props }) {
       <ul className={styles.commaList}>
         {posts.map(({ slug, title }) => (
           <li key={slug} className={styles.commaListItem}>
-            <Link href={`/posts/${slug}`}>
+            <Link href="/posts/[slug]" as={`/posts/${slug}`}>
               <a>{title}</a>
             </Link>
           </li>

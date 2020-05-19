@@ -5,6 +5,7 @@ import '../styles/global.css';
 import '../styles/solarized-dark.theme.css';
 import '../fonts/fonts.css';
 import { setUpCoreVitalsTracking } from '../lib/performance-metrics';
+import { ThemeProvider } from '../lib/theme';
 
 Router.events.on('routeChangeComplete', (url) => pageview(url));
 
@@ -13,5 +14,9 @@ export default function App({ Component, pageProps }) {
     setUpCoreVitalsTracking();
   }, []);
 
-  return <Component {...pageProps} />;
+  return (
+    <ThemeProvider>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
 }
