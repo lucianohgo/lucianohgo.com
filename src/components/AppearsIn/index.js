@@ -5,17 +5,17 @@ export function AppearsIn({ posts, ...props }) {
   if (!posts || posts.length === 0) return null;
 
   return (
-    <p {...props}>
+    <div {...props}>
       Appears in:
       <ul className={styles.commaList}>
-        {posts.map(({ slug, title }) => (
-          <li key={slug} className={styles.commaListItem}>
-            <Link href="/posts/[slug]" as={`/posts/${slug}`}>
+        {posts.map(({ slug: id, title }) => (
+          <li key={id} className={styles.commaListItem}>
+            <Link href="/posts/[id]" as={`/posts/${id}`}>
               <a>{title}</a>
             </Link>
           </li>
         ))}
       </ul>
-    </p>
+    </div>
   );
 }
