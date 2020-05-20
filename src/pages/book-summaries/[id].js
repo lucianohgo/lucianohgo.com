@@ -1,44 +1,43 @@
 import React, { useMemo } from 'react';
 import Head from 'next/head';
-import { getAllPostIds, getPostData } from '../../lib/posts';
 import Layout from '../../components/Layout';
 import MetaTags from '../../components/MetaTags';
 import ContentArticle from '../../components/ContentArticle';
 import ContentAside from '../../components/ContentAside';
+import {
+  getAllBookSummaryIds,
+  getBookSummaryData,
+} from '../../lib/book-summaries';
 
 const GITHUB_USERNAME = 'lucianohgo';
 const GITHUB_REPO_NAME = 'lucianohgo.com';
 const GITHUB_REPO_EDIT_URL = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master`;
 
-export default function Post({ id, postData }) {
-  const postImage = useMemo(
+export default function BookSummary({ id, data }) {
+  const image = useMemo(
     () => ({
-      src: postData.cover,
-      alt: postData.coverAlt,
+      src: data.cover,
+      alt: data.coverAlt,
     }),
-    [postData.cover, postData.coverAlt]
+    [data.cover, data.coverAlt]
   );
-  const editUrl = `${GITHUB_REPO_EDIT_URL}/posts/${id}.md`;
+  const editUrl = `${GITHUB_REPO_EDIT_URL}/book-summaries/${id}.md`;
   const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://lucianohgo.com/posts/${id}`
+    `https://lucianohgo.com/book-summaries/${id}`
   )}`;
 
   return (
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{data.title}</title>
       </Head>
       <MetaTags
-        title={postData.title}
-        description={postData.description}
-        image={postImage}
+        title={data.title}
+        description={data.description}
+        image={data}
       />
       <main>
-        <ContentArticle
-          data={postData}
-          discussUrl={discussUrl}
-          editUrl={editUrl}
-        />
+        <ContentArticle data={data} discussUrl={discussUrl} editUrl={editUrl} />
       </main>
       <ContentAside />
     </Layout>
@@ -46,7 +45,7 @@ export default function Post({ id, postData }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds();
+  const paths = getAllBookSummaryIds();
 
   return {
     paths,
@@ -55,12 +54,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { id } }) {
-  const postData = await getPostData(id);
+  const data = await getBookSummaryData(id);
 
   return {
     props: {
       id,
-      postData,
+      data,
     },
   };
 }
