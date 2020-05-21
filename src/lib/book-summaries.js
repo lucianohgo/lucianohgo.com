@@ -1,16 +1,16 @@
 import path from 'path';
 import { getFileData, getIds, getSortedData } from './markdown';
 
-const postsDirectory = path.join(process.cwd(), 'content', 'posts');
+const postsDirectory = path.join(process.cwd(), 'content', 'book-summaries');
 
-export function getSortedPostsData() {
+export function getSortedBookSummaries() {
   return getSortedData(postsDirectory);
 }
 
-export function getAllPostIds() {
+export function getAllBookSummaryIds() {
   return getIds(postsDirectory);
 }
 
-export async function getPostData(id) {
+export async function getBookSummaryData(id) {
   return getFileData(postsDirectory, id);
 }
