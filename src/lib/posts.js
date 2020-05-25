@@ -1,5 +1,5 @@
 import path from 'path';
-import { getFileData, getIds, getSortedData } from './markdown';
+import { getFileData, getIds, getSortedData } from './content';
 
 const postsDirectory = path.join(process.cwd(), 'content', 'posts');
 

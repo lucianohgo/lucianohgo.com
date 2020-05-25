@@ -821,7 +821,7 @@ of monitoring, we're practicing _abdication_ and not _delegation_.
 | Low | Structured; Task-Oriented;  "What", "How" & "When" |
 | Medium | Individual-Oriented; emphasis on two-way communication,  support, mutual reasoning |
 | High | Involvement by manager minimal: Establishing objectives and monitoring |
-*WARNING 🚨: Do not make judgment of what is "nice" or "not nice". We are after what is most _effective_.*
+WARNING 🚨: Do not make judgment of what is "nice" or "not nice". We are after what is most _effective_.
 
 Structure moves from being _externally imposed_ to being _internally given_.
 

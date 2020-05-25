@@ -24,6 +24,7 @@ export default class HomepageDocument extends Document {
             gtag('js', new Date());
             gtag('config', '${gaTrackingId()}', {
               page_path: window.location.pathname,
+              transport_type: 'beacon',
             });
             
             if(window.matchMedia("(prefers-color-scheme: dark)").matches) {

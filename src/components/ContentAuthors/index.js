@@ -1,6 +1,6 @@
 import styles from './post-authors.module.css';
 
-export default function PostAuthors({ authors }) {
+export default function ContentAuthors({ authors }) {
   return (
     <div className={styles.authors}>
       {authors.map(
