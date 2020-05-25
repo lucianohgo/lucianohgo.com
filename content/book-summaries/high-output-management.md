@@ -19,8 +19,8 @@ __Book Author__: _[Andrew S. Grove](https://en.wikipedia.org/wiki/Andrew_Grove)_
 > “Build and deliver products in response to the demands of the customer at a scheduled delivery time, at an acceptable quality level, and at lowest possible cost”
 Scheduled - Acceptable - Lowest possible Cost
 
-**Limitting Step**: the step in the overall shape of the production flow that will determine the overall shape of a 
-company’s operations. Start with the longest/most difficult/most expensive/most sensitive step and work your way back.
+**Limiting Step**: the step in the overall shape of the production flow that will determine the overall shape of a
+company’s operations. Start with the longest/most challenging/most expensive/most sensitive step and work your way back.
 
 Process - Assembly - Test
 
@@ -57,7 +57,7 @@ Options:
 - Build to order
 - Build to forecast
 
-> What works better is to __have every small unit prepare their forecast__. This way people will be responsible for 
+> What works better is to __have every small unit prepare their forecast__. This way people will be responsible for
 performing against their own predictions.
 
 You should always deliberately build a reasonable amount of Slack.
@@ -74,7 +74,7 @@ __Inspections:__
 
 > One should NEVER let substandard material proceed if it could cause complete failure (RELIABILITY)
 
-Approach Inspections recognizing the balance between: 
+Approach Inspections recognizing the balance between:
 
 - Desired result + Improved Quality VS Minimum disturbance of the production process
 - GATE-LIKE Inspection (Wait at the gate) vs MONITORING STEP Inspection (In-flight)
@@ -114,7 +114,7 @@ Arrange the workflow to be characterized by high-leverage activities:
 ## 3. Managerial Leverage
 
 ```
-Manager’s Output = 
+Manager’s Output =
     The Output of his organization +
     The Output of the neighboring organizations under his influence
 ```
@@ -163,7 +163,7 @@ __Managerial Meddling generates Negative leverage__
 Delegator and Delegatee need to share
   - Common base
   - Common set of operational ideas or notion on how to solve problems
-  
+
 Make a conscious decision on what you should and should not delegate
 
 Delegation without follow-through is abdication. Never wash your hands of a task.
@@ -171,23 +171,24 @@ Delegation without follow-through is abdication. Never wash your hands of a task
 Delegate the tasks you’re more familiar with.
 
 Apply Quality principles:
-  - Monitor at the lowest possible value stage
-  - Variable frequency approach
-  - Should be based on TRM
+
+- Monitor at the lowest possible value stage
+- Variable frequency approach
+- Should be based on TRM
 
 ### Manage your time:
 
 - Identify Limiting Steps and focus on them
 - Batch things that have a similar context
 - Use your calendar as a production planning tool
-    - Move towards an active use of your calendar
-        - Fill the holes between time-critical events with non-time-critical though necessary activities
-    - Say NO to work beyond your capacity
-        - Always better to say no earlier rather than later
+  - Move towards an active use of your calendar
+    - Fill the holes between time-critical events with non-time-critical though necessary activities
+  - Say NO to work beyond your capacity
+    - Always better to say no earlier rather than later
 - Always allow SLACK in your schedule. Things will go wrong.
 - Always carry a raw material INVENTORY of projects
-    - Things you need to do, but you don’t need to do right away
-    - This avoids meddling by keeping you busy
+  - Things you need to do, but you don’t need to do right away
+  - This avoids meddling by keeping you busy
 - Try to follow well-established procedures
 
 6~8: Ideal number of subordinates
@@ -267,7 +268,7 @@ Striving for the Output
 
 Don’t push for a decision prematurely. But don’t take too long either.
 
-| Things to always Know Before each decision/meeting | 
+| Things to always Know Before each decision/meeting |
 |---------------|
 | What decision Needs to be made |
 | When does it have to be made |
@@ -453,7 +454,7 @@ the breadth of the entire corporation.
 The shift back and forth between the two types of organizations CAN and SHOULD be initiated to match the operational
 styles and aptitudes of the managers running the individual units.
 
-The most important task before such an organization is the optimum and timely allocation of its resources and the 
+The most important task before such an organization is the optimum and timely allocation of its resources and the
 efficient resolution of conflicts arising over that allocation.
 
 In our business culture, the allocation of shared resources and the reconciliation of the conflicting needs and desires
@@ -602,7 +603,7 @@ Low to High
 	2.1. Complex: New technology, creating new things, people pulling in different directions
 	2.2. Uncertain: One or more important conditions may change
 	2.3. Ambiguity: Clear, defining information is missing from key points
-	
+
 The image explains this:
 
 ![Invidual Motivation Vs CUA Factor. Shows four quadrants along two axis. The axis represent motivation and CUA factor.
