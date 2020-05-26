@@ -1,0 +1,13 @@
+{
+  "default": true,
+  "MD003": {
+    "style": "atx"
+  },
+  "MD004": {
+    "style": "dash"
+  },
+  "MD033": false,
+  "MD035": {
+    "style": "---"
+  }
+}
