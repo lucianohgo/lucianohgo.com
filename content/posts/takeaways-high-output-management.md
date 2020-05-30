@@ -1,6 +1,6 @@
 ---
 title: 'A top 5 takeaways summary of High Output Management'
-date: '2020-05-28'
+date: '2020-05-30'
 description: 'High output management by Andrew S. Grove is one of the best books ever written on management. These are the main ideas I took from it'
 cover: 'https://lucianohgo.com/images/snail-slow.jpg'
 coverAlt: 'Book cover of High Output Management by Andrew S. Grove'
@@ -61,71 +61,8 @@ lowest possible cost.**”
 Understanding the basis of production will enable you to achieve that goal and
 Andrew provides us with some of those key elements.
 
-### Limiting Step
-
-The step in the overall shape of the production flow that will determine the
-overall shape of a company’s operations. Start with the longest/most
-challenging/most expensive/most sensitive step and work your way back.
-
-!["Shows a production graph of a breakfast factory the graph goes from
-production start to delivery and shows different steps that need to be done.
-Where the limiting step is the making of the eggs. The other production steps
-are done around it, and the limiting step is the first to be
-done"](/images/high-output-management/limiting-step.jpg "Limiting steps at a
-Breakfast factory") *Start with the longest/most challenging/most expensive/most
-sensitive step and work your way back. Work around the limiting step to get more
-done within the same time*
-
-### Objectives and managing through them
-
-To run your operation well and understand what you can optimize, you will need a
-set of good indicators or measurements. For any of those measurements to be
-useful, they will need to be focused on your Operational Goals. With this small
-piece of advice, we're given an important understanding: The Goals are what is
-more important, the measurements will simply help you pursue those goals.
-
-Andrew tells us on different parts of the book that the mind is a limited
-resource, so we should always focus on what's important and let go of the rest.
-With objectives and key results, his take is:
-
-> Ask yourself: **Which five pieces of information would you want to look at
-> each day?**
-
-Because indicators direct one’s focus and activities, you should always __guard
-against overreacting__ or stretching an indicator. To avoid this, Grove
-recommends us to always pair our indicators around Effect and Counter Effect,
-i.e. always have health metrics for our key results.
-
-Furthermore, for any indicator to be genuinely effective, it needs to measure
-output and not activity. Of course you would measure a Salesman's results by his
-order sold, not by how many calls he made.
-
-You will always get more commitment on these objectives and measurements if the
-team that will have them has proposed them themselves. Measure their estimates
-versus the actual result and help them adjust when necessary.
-
-### Quality Assurance
-
-In assuring quality, some principles are very helpful:
-
-1. Fix problems while they're small: Strive to find problems at the lowest value
-   stage possible and fix them before they roll out;
-2. One should **never** let substandard material when its defect could cause a
-   complete failure--a reliability problem--for our customer
-3. One should approach the need to inspect recognizing that a balance exists
-   between the desired result of the inspection, improved quality, and minimum
-   disturbance to the production process itself: Lean toward monitoring vs
-   gate-like inspections when problems aren't happening frequently.
-
-### Improving the process
-
-You must frequently question *why* each step of the process is performed.
-Typically, you will find that many steps exist in your work flow for no good
-reason.
-
-Also, stressing output is the key to improving productivity, while looking to
-increase activity can do just the opposite. Strive to make people more effective
-in chasing the output, not only more efficient in doing their activities.
+If you'd like to understand more about these elements, head to my post about
+this topic: ["Everything is a process"](/content/posts/everything-is-a-process).
 
 ## Takeaway two: Your output is almost entirely based in leverage
 
@@ -160,30 +97,9 @@ when a supervisor uses his superior knowledge and experience of a direct's
 responsibilities to assume command of a situation rather than letting the direct
 work things through himself.
 
-- One-on-Ones are high leverage
-- Time is limited: manage it will focus on leverage
-
 ## Takeaway three: Meetings are a medium of work
 
-- How to prepare to the meetings
-- How to make effective decisions
-- Your team often has more perspective than you
-
-## Takeaway four: Manage short-term outcomes based on long-term plans
-
-- Why planning is important
-- How to plan
-- What should be the output
-
-## Takeaway five: Management is not 1-size, fits-all. Manage your team's performance
-
-- Understand the shifts in task-relevant-maturity;
-  - Delegate appropriately;
-- Focus on increasing performance;
-- Performance is a function of understanding what takes to do the work and
-  motivation
-- Give valuable feedback and guidance;
-- Different people will be better managed differently.
+Meetings are a powerful way to have leverage if used correctly.
 
 ## Summary
 
