@@ -297,10 +297,12 @@ Don’t push for a decision prematurely. But don’t take too long either.
 
 | Things to always Know Before each decision/meeting |
 |---------------|
-| What decision Needs to be made | | When does it have to be made | | Who will
-decide | | Who will need to be consulted prior to the making of the decision | |
-Who will ratify or veto the decision | | Who will Need to be Informed of the
-decision |
+| What decision Needs to be made |
+| When does it have to be made |
+| Who will decide |
+| Who will need to be consulted prior to the making of the decision |
+| Who will ratify or veto the decision |
+| Who will Need to be Informed of the decision |
 
 ## 6. Planning Today’s Actions for Tomorrow’s Output
 

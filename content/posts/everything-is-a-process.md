@@ -1,6 +1,6 @@
 ---
-title: 'Everything is a process. A takeaway from High Output Management'
-date: '2020-05-31'
+title: 'Everything is a Process: A Takeaway from High Output Management'
+date: '2020-06-01'
 description: 'High output management by Andrew S. Grove is one of the best books ever written on management. '
 cover: 'https://lucianohgo.com/images/snail-slow.jpg'
 coverAlt: 'Book cover of High Output Management by Andrew S. Grove'
@@ -15,18 +15,19 @@ appearsIn:
     title: "A top 5 takeaways summary of High Output Management"
 ---
 
-Whether you're building software, hiring, making breakfast or even creating toys,
-everything can be modeled as a production process. Understanding the main
+Whether you're building software, hiring, making breakfast or even creating
+toys, everything can be modeled as a production process. Understanding the main
 elements of production we can also better understand our company's, our team's
 and our own process and improve it dramatically.
 
-![Two men having a conversation while look at the insides of machinery. One is speaking and both are looking at the machines](/images/high-output-management/assembly-line.jpg "Understand your process and optimize it!")
-* Understand your process and optimize it -- Photo by [Science in HD](https://unsplash.com/@scienceinhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/assembly-line?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
+![Two men having a conversation while look at the insides of machinery. One is speaking and both are looking at the machines](/images/high-output-management/assembly-line.jpg "Understand your process and optimize it!")*Understand your process and optimize it -- Photo by [Science in HD](https://unsplash.com/@scienceinhd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/assembly-line?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
-This post is part of the series of a top 5 takeaways summary of High Output
+This post is part of the series of top 5 takeaways summary of High Output
 Management, so the content here is largely based on the book's content. If you'd
 like to see the other takeaways, [go to the original
 post](/posts/takeaways-high-output-management).
+
+---
 
 We're always trying to:
 
@@ -48,12 +49,14 @@ The step in the overall shape of the production flow that will determine the
 overall shape of a company’s operations. Start with the longest/most
 challenging/most expensive/most sensitive step and work your way back.
 
-!["Shows a production graph of a breakfast factory the graph goes from
-production start to delivery and shows different steps that need to be done.
-Where the limiting step is the making of the eggs. The other production steps
-are done around it, and the limiting step is the first to be
-done"](/images/high-output-management/limiting-step.jpg "Limiting steps at a
-Breakfast factory") *Start with the longest/most challenging/most expensive/most
+<img src="/images/high-output-management/limiting-step.jpg" alt="Shows a
+   production graph of a breakfast factory the graph goes from production start
+   to delivery and shows different steps that need to be done. Where the
+   limiting step is the making of the eggs. The other production steps are done
+   around it, and the limiting step is the first to be done" title="Limiting
+   steps at a Breakfast factory" style="margin: 0 auto; width: 65%"
+/>
+*Start with the longest/most challenging/most expensive/most
 sensitive step and work your way back. Work around the limiting step to get more
 done within the same time*
 
@@ -61,9 +64,15 @@ done within the same time*
 
 To run your operation well and understand what you can optimize, you will need a
 set of good indicators or measurements. For any of those measurements to be
-useful, they will need to be focused on your Operational Goals. With this small
-piece of advice, we're given an important understanding: The Goals are what is
-more important, the measurements will simply help you pursue those goals.
+useful, they will need to be focused on your Operational Goals.
+
+With this small piece of advice, we're given an important understanding: The
+Goals are what is more important, the measurements will simply help you pursue
+those goals:
+
+1. Where do I want to go? (Answer provides the objective)
+2. How will I pace myself to see if I am getting there? (The answer gives us
+   milestones or key results)
 
 Andrew tells us on different parts of the book that the mind is a limited
 resource, so we should always focus on what's important and let go of the rest.
@@ -102,8 +111,12 @@ In assuring quality, some principles are very helpful:
 
 You must frequently question *why* each step of the process is performed.
 Typically, you will find that many steps exist in your work flow for no good
-reason.
+reason. Often they are there by tradition or because formal procedure ordains
+it, and nothing practical requires their inclusion.
 
-Also, stressing output is the key to improving productivity, while looking to
-increase activity can do just the opposite. Strive to make people more effective
-in chasing the output, not only more efficient in doing their activities.
+No matter what reason may be given for a step, you must critically question each
+and throw out those that common sense says you can do without.
+
+Stressing output is the key to improving productivity, while looking to increase
+activity can do just the opposite. Strive to make people more effective in
+chasing the output, not only more efficient in doing their activities.
