@@ -12,47 +12,62 @@ tags:
   - rendering
 ---
 
-React is improving fast and new versions pack a lot of different cool features built into the library. One of the
-coolest is the set of tooling around [Memoization](https://en.wikipedia.org/wiki/Memoization). In this post we'll
-learn a few tips and tricks on the subject, things I've used in production and helped me speed up heavy renders.
+React is improving fast and new versions pack a lot of different cool features
+built into the library. One of the coolest is the set of tooling around
+[Memoization](https://en.wikipedia.org/wiki/Memoization). In this post we'll
+learn a few tips and tricks on the subject, things I've used in production and
+helped me speed up heavy renders.
 
 ## Why it matters
 
-Already know why it matters? [Go straight to the cheat sheet ⏭](#the-cheat-sheet)
+Already know why it matters? [Go straight to the cheat sheet
+⏭](#the-cheat-sheet)
 
-Memoizing is a well-known concept in computer programming, aiming to **speed up programs by caching results** of
-expensive function calls and re-using those cached results as to avoid repeating those expensive operations:
+Memoizing is a well-known concept in computer programming, aiming to **speed up
+programs by caching results** of expensive function calls and re-using those
+cached results as to avoid repeating those expensive operations:
 
-![Memoization graph showing expensive vs cached renders](/images/memoization.jpg "Memoization diagram")
-*Memoization speeding up an expensive component's render*
+![Memoization graph showing expensive vs cached renders](/images/memoization.jpg
+"Memoization diagram") *Memoization speeding up an expensive component's render*
 
-When using React, depending on how big and complex your component tree is, **the process of rendering might be one of these
-expensive operations**. The process of [reconciliation](https://reactjs.org/docs/reconciliation.html) alone might already
-be too heavy if it always has to go over the whole tree. This kind of computation, when done in the UI thread,
-can impose a heavy tax on the user experience, making your UI non-responsive and sluggish. In fact if we want to
-meet [RAIL's goals and guidelines](https://developers.google.com/web/fundamentals/performance/rail#goals-and-guidelines)
-we have 50ms of time to do computations before we actually respond to user input.
+When using React, depending on how big and complex your component tree is, **the
+process of rendering might be one of these expensive operations**. The process
+of [reconciliation](https://reactjs.org/docs/reconciliation.html) alone might
+already be too heavy if it always has to go over the whole tree. This kind of
+computation, when done in the UI thread, can impose a heavy tax on the user
+experience, making your UI non-responsive and sluggish. In fact if we want to
+meet [RAIL's goals and
+guidelines](https://developers.google.com/web/fundamentals/performance/rail#goals-and-guidelines)
+we have 50ms of time to do computations before we actually respond to user
+input.
 
-A heavy, unresponsive and sluggish UI can lead to frustrated users and a sense of fatigue while using your application
-and on React application avoiding re-renders is usually one of the most impactful performance improvements you can do on
-[Rendering Performance](https://developers.google.com/web/fundamentals/performance/rendering)
+A heavy, unresponsive and sluggish UI can lead to frustrated users and a sense
+of fatigue while using your application and on React application avoiding
+re-renders is usually one of the most impactful performance improvements you can
+do on [Rendering
+Performance](https://developers.google.com/web/fundamentals/performance/rendering)
 
 ## The Cheat Sheet
 
-This is the actual cheatsheet :) If you know some other ways to use memoization, lemme know!
+This is the actual cheatsheet :) If you know some other ways to use memoization,
+lemme know!
 
 ### Memoizing Components
 
-When a component does not need to render when it's props change, we can let React know that so that it won't try
-to render from that component down unless it has to.
+When a component does not need to render when it's props change, we can let
+React know that so that it won't try to render from that component down unless
+it has to.
 
->Note that the advantage of Memoizing components only pays off when rendering is expensive. For simple children trees
->it can be quicker to just do the render compared to the overhead of comparing props.
+>Note that the advantage of Memoizing components only pays off when rendering is
+>expensive. For simple children trees it can be quicker to just do the render
+>compared to the overhead of comparing props.
 
 #### Function Components
 
-React comes with an awesome [HoC](https://reactjs.org/docs/higher-order-components.html):
-[`React.memo`](https://reactjs.org/docs/react-api.html#reactmemo) that allows us to  memoize function components:
+React comes with an awesome
+[HoC](https://reactjs.org/docs/higher-order-components.html):
+[`React.memo`](https://reactjs.org/docs/react-api.html#reactmemo) that allows us
+to  memoize function components:
 
 ```jsx
 // When we use the HoC without supplying a comparation function it
@@ -71,10 +86,13 @@ const MemoizedComponent = React.memo(MyComponent, areEqual);
 
 #### Class Components
 
-React has shipped with `shouldComponentUpdate` for a long time. `shouldComponentUpdate` is a method which is used in the
-[reconciliation](https://reactjs.org/docs/reconciliation.html) algorithm to tell if a component should trigger it's
-`render()` method or not. Like with `React.memo` there's an easy way to implement that comparison if we only need a
-default shallow comparison of props: [`React.PureComponent`](https://reactjs.org/docs/react-api.html#reactpurecomponent)
+React has shipped with `shouldComponentUpdate` for a long time.
+`shouldComponentUpdate` is a method which is used in the
+[reconciliation](https://reactjs.org/docs/reconciliation.html) algorithm to tell
+if a component should trigger it's `render()` method or not. Like with
+`React.memo` there's an easy way to implement that comparison if we only need a
+default shallow comparison of props:
+[`React.PureComponent`](https://reactjs.org/docs/react-api.html#reactpurecomponent)
 
 ```jsx
 // Shallow comparison of props on shouldComponentUpdate
@@ -99,13 +117,14 @@ class MyComponent extends React.Component {
 }
 ```
 
->Note that shouldComponentUpdate is the opposite of the comparison function for React.memo which can be interpreted as
->a `areEqual` function
+>Note that shouldComponentUpdate is the opposite of the comparison function for
+>React.memo which can be interpreted as a `areEqual` function
 
 ### Memoizing Props
 
-When using literals, like `string` and `number` shallow comparison usually suffices for component memoization. However
-if we're using functions and objects, we need to memoize them in a different way. Because:
+When using literals, like `string` and `number` shallow comparison usually
+suffices for component memoization. However if we're using functions and
+objects, we need to memoize them in a different way. Because:
 
 ```jsx
 { foo: 'bar' } === { foo: 'bar' } // false
@@ -117,7 +136,8 @@ Don't worry though, React ships with some cool helpers for that too :)
 
 #### Memoizing Functions
 
-To memoize functions, we can use [`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback)
+To memoize functions, we can use
+[`useCallback`](https://reactjs.org/docs/hooks-reference.html#usecallback)
 
 ```jsx
 // Creating a memoized callback:
@@ -129,7 +149,7 @@ const memoizedCallback = useCallback(
 );
 ```
 
-##### Example of usage in a component:
+##### Example of usage in a component
 
 ```jsx
 function MyComponent({ id, ...props }) {
@@ -151,13 +171,16 @@ function MyComponent({ id, ...props }) {
 
 #### Memoizing heavy computations, Objects, Arrays, Sets, etc
 
-To memoize the return of heavy computation functions, Objects, Arrays, Sets, etc we can use
-[`useMemo`](https://reactjs.org/docs/hooks-reference.html#usecallback). We're meant to use this **only if the value
-needs to change based on a certain property**, [if you need a consistent reference there is
-another way](./#consistent-reference-when-contents-do-not-change)
+To memoize the return of heavy computation functions, Objects, Arrays, Sets, etc
+we can use
+[`useMemo`](https://reactjs.org/docs/hooks-reference.html#usecallback). We're
+meant to use this **only if the value needs to change based on a certain
+property**, [if you need a consistent reference there is another
+way](./#consistent-reference-when-contents-do-not-change)
 
-Up until now, we were memoizing values to prevent the render from happening. With `useMemo` however, we can prevent
-heavy computation from happening as well by storing a value in memory.
+Up until now, we were memoizing values to prevent the render from happening.
+With `useMemo` however, we can prevent heavy computation from happening as well
+by storing a value in memory.
 
 ```jsx
 // computeExpensiveValue only called if a or b change value
@@ -167,7 +190,7 @@ const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 const memoizedObject = useMemo(() => ({ a, b }), [a, b]);
 ```
 
-##### Example of usage in a component:
+##### Example of usage in a component
 
 ```jsx
 function ProfilePage({
@@ -206,21 +229,25 @@ function ProfilePage({
 }
 ```
 
->Note that most of the time you shouldn't be doing heavy computation inside render methods, if possible, you
->should avoid doing that in the UI thread altogether. If you're interested, [Surma](https://twitter.com/DasSurma) has a
->[really good article on how to move computation off of the main thread](https://web.dev/off-main-thread/)
+>Note that most of the time you shouldn't be doing heavy computation inside
+>render methods, if possible, you should avoid doing that in the UI thread
+>altogether. If you're interested, [Surma](https://twitter.com/DasSurma) has a
+>[really good article on how to move computation off of the main
+>thread](https://web.dev/off-main-thread/)
 
 #### Consistent Reference When Content Does Not Change
 
-To get a consistent reference to a value, we can use the [useRef](https://reactjs.org/docs/hooks-reference.html#useref)
-hook:
+To get a consistent reference to a value, we can use the
+[useRef](https://reactjs.org/docs/hooks-reference.html#useref) hook:
 
 ```jsx
 const refContainer = useRef(initialValue);
-const { current: value } = useRef(initialValue); // If you want to rename it and not use the .current
+
+// If you want to rename it and not use the .current
+const { current: value } = useRef(initialValue);
 ```
 
-##### Example of usage in a component:
+##### Example of usage in a component (useRef)
 
 ```jsx
 function ProfileData({
@@ -279,9 +306,15 @@ function TracedComponent({ trace, ...props}) {
 ## See Also
 
 0. [React Top Level API -- React](https://reactjs.org/docs/react-api.html);
-1. [Hooks API Reference -- React](https://reactjs.org/docs/hooks-reference.html#useref);
-2. [Hooks FAQ -- React](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables);
-3. [You’re overusing useMemo: Rethinking Hooks memoization -- LogRocket Blog](https://blog.logrocket.com/rethinking-hooks-memoization/);
-4. [Measure Performance with the RAIL Model -- Web Fundamentals](https://developers.google.com/web/fundamentals/performance/rail);
-5. [Rendering Performance -- Web Fundamentals](https://developers.google.com/web/fundamentals/performance/rendering)
-6. [Use web workers to run JavaScript off the browser's main thread -- web.dev](https://web.dev/off-main-thread/)
+1. [Hooks API Reference --
+   React](https://reactjs.org/docs/hooks-reference.html#useref);
+2. [Hooks FAQ --
+   React](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables);
+3. [You’re overusing useMemo: Rethinking Hooks memoization -- LogRocket
+   Blog](https://blog.logrocket.com/rethinking-hooks-memoization/);
+4. [Measure Performance with the RAIL Model -- Web
+   Fundamentals](https://developers.google.com/web/fundamentals/performance/rail);
+5. [Rendering Performance -- Web
+   Fundamentals](https://developers.google.com/web/fundamentals/performance/rendering)
+6. [Use web workers to run JavaScript off the browser's main thread --
+   web.dev](https://web.dev/off-main-thread/)
