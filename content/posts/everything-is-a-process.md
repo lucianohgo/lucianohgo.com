@@ -2,8 +2,8 @@
 title: 'Everything is a Process: A Takeaway from High Output Management'
 date: '2020-06-01'
 description: 'High output management by Andrew S. Grove is one of the best books ever written on management. '
-cover: 'https://lucianohgo.com/images/snail-slow.jpg'
-coverAlt: 'Book cover of High Output Management by Andrew S. Grove'
+cover: 'https://lucianohgo.com/images/assembly-line.jpg'
+coverAlt: 'Two men having a conversation while look at the insides of machinery. One is speaking and both are looking at the machines'
 authors:
   - lucianohgo
 tags:

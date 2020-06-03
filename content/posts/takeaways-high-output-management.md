@@ -2,7 +2,7 @@
 title: 'A top 5 takeaways summary of High Output Management'
 date: '2020-05-31'
 description: 'High output management by Andrew S. Grove is one of the best books ever written on management. These are the main ideas I took from it'
-cover: 'https://lucianohgo.com/images/snail-slow.jpg'
+cover: 'https://lucianohgo.com/images/high-output-management/cover.jpg'
 coverAlt: 'Book cover of High Output Management by Andrew S. Grove'
 authors:
   - lucianohgo
