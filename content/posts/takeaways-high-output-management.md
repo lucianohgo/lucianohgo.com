@@ -98,11 +98,11 @@ productive. We can achieve high leverage in three ways:
 1. When many people are affected by one manager;
 2. When a person's activity or behavior over a long period of time is affected
    by a manager's brief, well-focused set of words or actions;
-3. When a large group's work is affected by an individual supplying a unique,
-   key piece of knowledge or information.
+3. When a large group's work is influenced by an individual supplying a unique,
+   critical piece of knowledge or information.
 
 Leverage can also be negative. Some activities can end up reducing the
-output of the organization. One important example here is *Managerial Meddling*:
+output of the organization. One noteworthy example here is *Managerial Meddling*:
 when a supervisor uses his superior knowledge and experience of a direct's
 responsibilities to assume command of a situation rather than letting the direct
 work things through himself.
@@ -110,17 +110,17 @@ work things through himself.
 ## Takeaway three: Meetings are a medium of work
 
 While meetings [have been getting a lot of
-hate](https://www.westuc.com/en-us/meeting-fatigue), chances are, if you're a
-manager and especially if you're a middle manager you will be getting a lot of
-your work done through them. When done wrong, they can kill your team's
-productivity, but when done write Meetings do provide high leverage and Andy
-provides us with some hints on how to do that.
+hate](https://www.westuc.com/en-us/meeting-fatigue), chances are if you're a
+manager and especially if you're a middle manager you will need to get a lot of
+your work done through them. When done right meetings can go from extremelly
+harmful to a team's performance to being one key way to have high leverage. With
+that goal in mind, Andy shares with us some hints on how to do that.
 
 ### Free Discussion
 
 One key goal to strive in meetings is providing an environment of free
-discussion. People need to feel incentivized and safe to share their opinions
-and be assured that personal opinions will never outweigh the better idea. The
+discussion. People need to feel encouraged and safe to share their opinions
+and be assured that **personal views will never outweigh the better idea**. The
 greater the disagreement on a topic, the more free the discussion needs to be.
 
 <img
@@ -138,9 +138,9 @@ greater the disagreement on a topic, the more free the discussion needs to be.
 discussion on track, with the subordinates bearing the brunt of working the
 issues*
 
-The manager have the role of a facilitator and avoid stepping in too much with
+The manager has the role of a facilitator and avoids stepping in too much with
 the solutions. The focus is in keeping the discussion on track and keeping all
-of the attendees active and engaged. Make the right questions at the right
+of the attendees active and engaged. Make the right questions at the correct
 times, but trust your directs to work on the issues.
 
 ### Things to know before a meeting
@@ -236,7 +236,7 @@ to understand that:
 > combinations of certain managers and certain groups of workers.
 
 Some researchers and Andrew argue that there is a fundamental variable that
-tells you you what the best management style is in a particular situation. That
+tells you what the best management style is in a particular situation. That
 variable is task-relevant maturity (TRM). As Grove defines it:
 
 ```
@@ -257,7 +257,7 @@ Given different levels of TRM, we can vary the management style:
 | Low | Structured; Task-Oriented;  "What", "How" & "When" |
 | Medium | Individual-Oriented; emphasis on two-way communication,  support, mutual reasoning |
 | High | Involvement by manager minimal: Establishing objectives and monitoring |
-WARNING 🚨: Do not make judgment of what is "nice" or "not nice". We are after
+WARNING 🚨: Do not make judgments of what is "nice" or "not nice". We are after
 what is most _effective_.
 
 We need to have a varying management style for the same person. People will have
