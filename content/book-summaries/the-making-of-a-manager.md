@@ -1,9 +1,9 @@
 ---
 title: 'The Making Of a Manager, Julie Zhuo'
 date: '2020-06-06'
-description: "Book summary for High Output Management by Andrew S. Grove"
+description: "Book summary for The Making Of a Manager by Julie Zhuo."
 cover: 'https://lucianohgo.com/images/the-making-of-a-manager/cover.jpg'
-coverAlt: 'Cover of the book The Making Of a Manager, Julie Zhuo'
+coverAlt: 'Cover of the book The Making Of a Manager, Julie Zhuo.'
 authors:
   - lucianohgo
 tags:
@@ -982,7 +982,7 @@ Questions to ask your manager:
   For each skill, how would you rate me against that ideal on a scale of one to
   five?
 
-Pick 3 to 7 people ywhom you work closely with and ask them to share feedback:
+Pick 3 to 7 people whom you work closely with and ask them to share feedback:
 
 > **Example of how to ask**: Hey, I value your feedback and I'd like to be a
 > more effective team member. Would you be willing to answer the questions
