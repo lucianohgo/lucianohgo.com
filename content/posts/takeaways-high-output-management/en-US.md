@@ -265,7 +265,6 @@ different levels of TRM for different kinds of tasks, and we need to understand
 that. Doing so and letting go of vanity regarding "our management style" is
 necessary to elicit top performance from our directs.
 
-
 <img
    src="/images/high-output-management/performance-vs-capability.png"
    alt="Peformance vs Individual Capability graph. Different levels of

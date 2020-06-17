@@ -18,27 +18,39 @@ import headings from 'remark-autolink-headings';
  */
 export function getSortedData(directory) {
   // Get file names under /posts
-  const fileNames = fs.readdirSync(directory);
-  const allPostsData = fileNames.map((fileName) => {
-    // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, '');
+  const contentFolders = fs.readdirSync(directory);
+  const allContentData = contentFolders.map((contentId) => {
+    const id = contentId;
+    const translations = fs.readdirSync(path.join(directory, contentId));
+    const dataByLanguage = {};
+    let earliestDate;
+    translations.forEach((translation) => {
+      // Remove ".md" from file name to get the locale
+      const locale = translation.replace(/\.md$/, '');
+      // Read markdown file as string
+      const fullPath = path.join(directory, contentId, translation);
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-    // Read markdown file as string
-    const fullPath = path.join(directory, fileName);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+      // Use gray-matter to parse the post metadata section
+      const matterResult = matter(fileContents);
+      dataByLanguage[locale] = matterResult.data;
+      earliestDate =
+        !earliestDate || earliestDate > matterResult.data.date
+          ? matterResult.data.date
+          : earliestDate;
+    });
 
-    // Use gray-matter to parse the post metadata section
-    const matterResult = matter(fileContents);
-
+    debugger;
     // Combine the data with the id
     return {
       id,
-      ...matterResult.data,
+      date: earliestDate,
+      ...dataByLanguage,
     };
   });
 
   // Sort posts by date
-  return allPostsData.sort((a, b) => {
+  return allContentData.sort((a, b) => {
     if (a.date < b.date) {
       return 1;
     } else {
@@ -48,18 +60,17 @@ export function getSortedData(directory) {
 }
 
 /**
- * Gets the file names of a directory of markdown content
+ * Gets file by content folder name
  *
- * @param directory a directory with only .md files
  * @return {{params: {id: string}}[]}
  */
 export function getIds(directory) {
   const fileNames = fs.readdirSync(directory);
 
-  return fileNames.map((fileName) => {
+  return fileNames.map((id) => {
     return {
       params: {
-        id: fileName.replace(/\.md$/, ''),
+        id,
       },
     };
   });
@@ -72,8 +83,8 @@ function getAuthorsData(authors) {
   return authors.map((slug) => authorsData.find(({ login }) => login === slug));
 }
 
-export async function getFileData(directory, id) {
-  const fullPath = path.join(directory, `${id}.md`);
+export async function getFileData(directory, id, { locale = 'en-US' } = {}) {
+  const fullPath = path.join(directory, id, `${locale}.md`);
   const fileContents = fs.readFileSync(fullPath, 'utf8');
 
   // Use gray-matter to parse the post metadata section

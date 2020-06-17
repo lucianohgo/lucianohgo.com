@@ -4,10 +4,10 @@ import utilStyles from '../../styles/utils.module.css';
 import Date from '../Date';
 import ArticlesSection from '../ArticlesSection';
 
-export default function Posts({ posts }) {
+export default function Posts({ posts, locale = 'en-US' }) {
   return (
     <ArticlesSection title="Posts">
-      {posts.map(({ id, date, title }) => (
+      {posts.map(({ id, [locale]: { date, title } }) => (
         <li className={styles.li} key={id}>
           <article>
             <header>
