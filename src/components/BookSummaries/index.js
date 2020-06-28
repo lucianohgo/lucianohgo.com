@@ -4,10 +4,10 @@ import utilStyles from '../../styles/utils.module.css';
 import Date from '../Date';
 import ArticlesSection from '../ArticlesSection';
 
-export default function BookSummaries({ bookSummaries }) {
+export default function BookSummaries({ bookSummaries, locale = 'en-US' }) {
   return (
     <ArticlesSection title="Book Summaries">
-      {bookSummaries.map(({ id, date, title }) => (
+      {bookSummaries.map(({ id, [locale]: { date, title } }) => (
         <li className={styles.li} key={id}>
           <article>
             <header>
