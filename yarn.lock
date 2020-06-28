@@ -4752,9 +4752,9 @@ regjsparser@^0.6.4:
   dependencies:
     jsesc "~0.5.0"
 
-remark-autolink-headings@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-6.0.0.tgz#86ec9c79f88fb911c96f8af9e0351d19453062f7"
+remark-autolink-headings@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/remark-autolink-headings/-/remark-autolink-headings-6.0.1.tgz#074470b8ec7714a0f06fa151e293152bf9723df9"
   dependencies:
     extend "^3.0.0"
     unist-util-visit "^2.0.0"
