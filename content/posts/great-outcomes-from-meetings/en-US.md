@@ -18,7 +18,7 @@ so much butchering of time happens in them that people are getting fatigued.
 This post tries to help you improve your team's meeting culture by giving you a
 clear picture of what a great outcome looks like for different meetings.
 
-![People in a video chat room having a meeting. A mug is on the left side and a computer with the video call is on the right](/images/great-outcomes-from-meetings/meeting.jpg "Take responsibility and don't perpetuate a bad meeting culture!")*Take responsibility and don't perpetuate a bad meeting culture! <br/> Photo by [Christina @ wocintechchat.coms](https://unsplash.com/@wocintechchat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/meeting)*
+![People in a video chat room having a meeting. A mug is on the left side and a computer with the video call is on the right](/images/great-outcomes-from-meetings/meeting.jpg "Take responsibility and don't perpetuate a bad meeting culture!")*Take responsibility and don't perpetuate a bad meeting culture! <br/> Photo by [Chris Montgomery](https://unsplash.com/@cwmonty?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/video-call)*
 
 > Leo Tolstoy begins *Anna Karenina* with the statement "Happy families are all alike; every unhappy family is unahppy in its own way." Meetings are much the same.
 >
