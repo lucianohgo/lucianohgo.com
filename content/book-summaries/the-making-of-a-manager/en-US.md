@@ -1256,7 +1256,7 @@ colleagues spend together toward what's truly valuable.
 #### Making a Decision
 
 Success here is both getting to a clear decision *and* everyone leaving with a
-sense of trust in the process. You don't need consensus, but tose whom the
+sense of trust in the process. You don't need consensus, but those whom the
 decision affects should feel that the way it was made was efficient and fair.
 
 Everyone on a team ultimately shares the same goals. While people have different
@@ -1288,7 +1288,7 @@ Here are some bad outcomes to avoid:
 
 #### Sharing Information
 
-Nowadays with email and cht right at our fingertips, it's less necessary (and
+Nowadays with email and chat right at our fingertips, it's less necessary (and
 often less efficient) for in-person get-togethers solely focused on the transfer
 of knowledge.
 
@@ -1303,16 +1303,16 @@ A great meeting accomplishes the following:
 - Enables the group to feel like they learned something valuable
 - Conveys key messages clearly and memorably
 - Keeps the audience's attention
-- Evokes and intented emotion
+- Evokes and intended emotion
 
 #### Providing Feedback
 
-Feedback meetings don't exist to pass or receive judgement but rather to get to
+Feedback meetings don't exist to pass or receive judgment but rather to get to
 the best outcome.
 
 A great feedback meeting achieves the following:
 
-- Gets everyone on the same page about what succes for the project looks like.
+- Gets everyone on the same page about what success for the project looks like.
 - Honestly represents the current status of the work.
 - Clearly frames open questions, key decisions, or known concerns to get the
   most helpful feedback.
@@ -1320,7 +1320,7 @@ A great feedback meeting achieves the following:
 
 #### Generating Ideas
 
-Unfortunately, having twelve people in a romm blurt out whatever comes to mind
+Unfortunately, having twelve people in a room blurt out whatever comes to mind
 isn't actually effective for innovation.
 
 The best idea generation comes from understanding that we need *both* time to
