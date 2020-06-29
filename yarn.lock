@@ -5892,9 +5892,9 @@ web-vitals@0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.1.tgz#60782fa690243fe35613759a0c26431f57ba7b2d"
 
-web-vitals@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.2.tgz#365d361590bf1a707c484d1196bd3c69e65523e0"
+web-vitals@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-0.2.3.tgz#950adea6da9e3cfd3ee2ffe868c7126a6d87b2d1"
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
