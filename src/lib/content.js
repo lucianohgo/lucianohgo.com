@@ -40,7 +40,6 @@ export function getSortedData(directory) {
           : earliestDate;
     });
 
-    debugger;
     // Combine the data with the id
     return {
       id,
