@@ -43,15 +43,6 @@ important for any business:
 
 - [User Acquisition: Bounce Rate](#user-acquisition-bounce-rate)
 - [Conversion: Give your users the UX they deserve](#conversion-give-your-users-the-ux-they-deserve)
-  - [Paint](#paint)
-  - [Interactivity](#interactivity)
-- [Conclusion](#conclusion)
-- [See Also](#see-also)
-  deserve](#conversion-give-your-users-the-ux-they-deserve)
-  - [Paint](#paint)
-  - [Interactivity](#interactivity)
-- [Conclusion](#conclusion)
-- [See Also](#see-also)
 
 ## User Acquisition: Bounce Rate
 
