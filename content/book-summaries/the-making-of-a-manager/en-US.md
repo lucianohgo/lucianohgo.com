@@ -1394,11 +1394,11 @@ Not everyone is comfortable rattling off whatever's top of mind in front of a
 group.
 
 Environments that feel safe, supportive, and nonjudgmental help people find
-their voice. It is easier to share when you see verone else doing the same
-versus just one or two talkative people. Or, when somebody asked for my opinion
-because she was genuinely curious or when we have a good enough relationship
-with the other folks resent to know that they wouldn't *actually* think we are
-incompetent, even if we say something stupid.
+their voice. It is easier to share when you see when every one else doing the
+same versus just one or two talkative people. Or, when somebody asked for my
+opinion because she was genuinely curious or when we have a good enough
+relationship with the other folks resent to know that they wouldn't *actually*
+think we are incompetent, even if we say something stupid.
 
 If you are a meeting organizer you will get better results if you can get your
 entire group to contribute. This is why it's so important to foster a welcoming

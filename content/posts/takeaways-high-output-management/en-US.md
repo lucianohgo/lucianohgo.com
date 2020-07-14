@@ -184,7 +184,7 @@ this stage, then we need more free discussion.
    title="The ideal decision-making process"
    style="margin: 0 auto; width: 50%"
 />
-*The ideal decision-making process. Yes, it's very similar to Bezo's [Disagree &
+*The ideal decision-making process. Yes, it's very similar to Bezos' [Disagree &
 Commit](https://en.wikipedia.org/wiki/Disagree_and_commit) leadership principle
 :)*
 

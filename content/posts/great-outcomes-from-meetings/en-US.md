@@ -6,10 +6,13 @@ cover: 'https://lucianohgo.com/images/great-outcomes-from-meetings/meeting.jpg'
 coverAlt: 'People in a video chat room having a meeting. A mug is on the left side and a computer with the video call is on the right'
 authors:
   - lucianohgo
+appearsIn:
+  - slug: "effective-meetings-free-discussion-disagree-and-commit"
+    title: "Enabling Free Discussion and the importance to Disagree and Commit"
 tags:
   - management
+  - meetings
   - process
-  - software engineering
 ---
 
 What am I doing in this meeting? I've felt it, you've felt it. I bet everyone in
@@ -176,3 +179,9 @@ which I greatly recommend for new and experienced managers :)
 thank you for respecting the sanctity of their time.
 >
 > -- [Julie Zhuo](https://www.juliezhuo.com/)
+
+---
+
+This post is part of a series about meetings. I've also written on:
+
+- [Enabling Free Discussion and the importance to Disagree and Commit](/posts/effective-meetings-free-discussion-disagree-and-commit)
