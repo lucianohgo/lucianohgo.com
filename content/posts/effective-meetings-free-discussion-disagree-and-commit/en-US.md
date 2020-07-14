@@ -56,10 +56,10 @@ In other words, the moderator's goal is **engaging all of the participants and
 keeping the discussion on track.** We all come from different backgrounds and
 have vastly different experiences. Which means that people will react in
 distinct ways to confrontation and to having someone give an opinion on what
-they should work on. Dealing with such distinct reactions increases the
-challenge, and sometimes people run away from this by trying to work with others
-that won't have such diverse backgrounds. This kills diversity, this blinds you
-to different ideas.
+they should work on. Dealing with such distinct reactions makes an honest and
+meaningful discussion harder to achieve. This sometimes lead people to run away
+from having coworkers with diverse backgrounds. This kills diversity and blinds
+them to different ideas.
 
 Confrontation & Diversity are essential if we want the best ideas to win. So we
 need to be the ones encouraging instead of fighting them. And here are some ways
@@ -84,7 +84,7 @@ we can do that:
    need to anchor everyone on the fact that we have shared goals** we may
    disagree on how to get there, but we're still capable people and want to be
    treated like humans. We're [highly social
-   beings](https://www.youtube.com/watch?v=NNhk3owF7RQ) we need to understand
+   beings](https://www.youtube.com/watch?v=NNhk3owF7RQ). We need to understand
    that and value empathy and social skills. Making people understand that
    others have beliefs, hopes and anxieties "Just Like Me" is key to more
    meaningful and rewarding discussions.
@@ -106,11 +106,11 @@ we can do that:
 
 If this seems uncannily similar to building [Psychological Safety in your
 team](https://www.youtube.com/watch?v=LhoLuui9gX8), it's because it is. The
-goals are the same, we want people to feel encouraged to take risks. To bring
+goals are the same; we want people to feel encouraged to take risks. To bring
 something more to the table.
 
 Environments that feel safe, supportive, and nonjudgmental help people find
-their voice. It is easier to share when you see that every one else doing the
+their voice. It is easier to share when you see that every one else is doing the
 same versus just one or two talkative people. Or, when somebody asked for my
 opinion because she was genuinely curious or when we have a good enough
 relationship with the other folks to know that they wouldn't *actually*
