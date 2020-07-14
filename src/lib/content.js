@@ -18,7 +18,9 @@ import headings from 'remark-autolink-headings';
  */
 export function getSortedData(directory) {
   // Get file names under /posts
-  const contentFolders = fs.readdirSync(directory);
+  const contentFolders = fs
+    .readdirSync(directory)
+    .filter((item) => !/(^|\/)\.[^\/\.]/g.test(item));
   const allContentData = contentFolders.map((contentId) => {
     const id = contentId;
     const translations = fs.readdirSync(path.join(directory, contentId));
