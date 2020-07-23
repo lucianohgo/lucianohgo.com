@@ -44,6 +44,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "lucasterra",
+      "name": "Lucas Terra",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/441058?v=4",
+      "profile": "https://github.com/lucasterra",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
