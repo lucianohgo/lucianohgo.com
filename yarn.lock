@@ -851,6 +851,12 @@
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
 
+"@types/mdast@^3.0.0":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/mdast/-/mdast-3.0.3.tgz#2d7d671b1cd1ea3deb306ea75036c2a0407d2deb"
+  dependencies:
+    "@types/unist" "*"
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -859,7 +865,7 @@
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
 
-"@types/unist@^2.0.0", "@types/unist@^2.0.2":
+"@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2", "@types/unist@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
 
@@ -2824,9 +2830,9 @@ hast-util-is-element@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hast-util-is-element/-/hast-util-is-element-1.0.4.tgz#059090a05cc02e275df1ad02caf8cb422fcd2e02"
 
-hast-util-sanitize@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/hast-util-sanitize/-/hast-util-sanitize-2.0.2.tgz#8a4299bccba6cc8836284466d446060d2ecb2f5c"
+hast-util-sanitize@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-sanitize/-/hast-util-sanitize-3.0.0.tgz#4cdc26b2991b3bf90ee74b5c932e14d907549312"
   dependencies:
     xtend "^4.0.0"
 
@@ -3519,19 +3525,21 @@ mdast-util-compact@^2.0.0:
   dependencies:
     unist-util-visit "^2.0.0"
 
-mdast-util-definitions@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/mdast-util-definitions/-/mdast-util-definitions-2.0.1.tgz#2c931d8665a96670639f17f98e32c3afcfee25f3"
+mdast-util-definitions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/mdast-util-definitions/-/mdast-util-definitions-3.0.1.tgz#06af6c49865fc63d6d7d30125569e2f7ae3d0a86"
   dependencies:
     unist-util-visit "^2.0.0"
 
-mdast-util-to-hast@^8.2.0:
-  version "8.2.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-8.2.0.tgz#adf9f824defcd382e53dd7bace4282a45602ac67"
+mdast-util-to-hast@^9.0.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-9.1.0.tgz#6ef121dd3cd3b006bf8650b1b9454da0faf79ffe"
   dependencies:
+    "@types/mdast" "^3.0.0"
+    "@types/unist" "^2.0.3"
     collapse-white-space "^1.0.0"
     detab "^2.0.0"
-    mdast-util-definitions "^2.0.0"
+    mdast-util-definitions "^3.0.0"
     mdurl "^1.0.0"
     trim-lines "^1.0.0"
     unist-builder "^2.0.0"
@@ -4755,13 +4763,13 @@ remark-autolink-headings@^6.0.1:
     extend "^3.0.0"
     unist-util-visit "^2.0.0"
 
-remark-html@^11.0.2:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/remark-html/-/remark-html-11.0.2.tgz#76f6f7c8981c736f01cb65f8853dbe5c2e546dfa"
+remark-html@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/remark-html/-/remark-html-12.0.0.tgz#f39d2a5e173cce777981cb4171b4ea860313d72a"
   dependencies:
-    hast-util-sanitize "^2.0.0"
+    hast-util-sanitize "^3.0.0"
     hast-util-to-html "^7.0.0"
-    mdast-util-to-hast "^8.2.0"
+    mdast-util-to-hast "^9.0.0"
     xtend "^4.0.1"
 
 remark-parse@^8.0.0:
