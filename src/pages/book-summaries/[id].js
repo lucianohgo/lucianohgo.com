@@ -21,7 +21,7 @@ export default function BookSummary({ id, data }) {
     }),
     [data.cover, data.coverAlt]
   );
-  const editUrl = `${GITHUB_REPO_EDIT_URL}/book-summaries/${id}.md`;
+  const editUrl = `${GITHUB_REPO_EDIT_URL}/content/book-summaries/${id}/en-US.md`;
   const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
     `https://lucianohgo.com/book-summaries/${id}`
   )}`;

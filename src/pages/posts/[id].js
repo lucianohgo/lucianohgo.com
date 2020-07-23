@@ -18,7 +18,7 @@ export default function Post({ id, postData }) {
     }),
     [postData.cover, postData.coverAlt]
   );
-  const editUrl = `${GITHUB_REPO_EDIT_URL}/posts/${id}.md`;
+  const editUrl = `${GITHUB_REPO_EDIT_URL}/content/posts/${id}/en-US.md`;
   const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
     `https://lucianohgo.com/posts/${id}`
   )}`;
