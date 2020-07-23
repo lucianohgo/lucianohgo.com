@@ -1,6 +1,6 @@
 # [lucianohgo.com](https://lucianohgo.com)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Contributors ✨
@@ -16,6 +16,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jhleitequintoandar"><img src="https://avatars3.githubusercontent.com/u/11929051?v=4" width="100px;" alt=""/><br /><sub><b>jhleitequintoandar</b></sub></a><br /><a href="https://github.com/lucianohgo/lucianohgo.com/pulls?q=is%3Apr+reviewed-by%3Ajhleitequintoandar" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/wescosta"><img src="https://avatars1.githubusercontent.com/u/1816129?v=4" width="100px;" alt=""/><br /><sub><b>Wesley Costa</b></sub></a><br /><a href="https://github.com/lucianohgo/lucianohgo.com/pulls?q=is%3Apr+reviewed-by%3Awescosta" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/raphaelbs"><img src="https://avatars1.githubusercontent.com/u/11169832?v=4" width="100px;" alt=""/><br /><sub><b>Raphael Brandão</b></sub></a><br /><a href="https://github.com/lucianohgo/lucianohgo.com/pulls?q=is%3Apr+reviewed-by%3Araphaelbs" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/lucasterra"><img src="https://avatars1.githubusercontent.com/u/441058?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Terra</b></sub></a><br /><a href="https://github.com/lucianohgo/lucianohgo.com/commits?author=lucasterra" title="Code">💻</a></td>
   </tr>
 </table>
 
