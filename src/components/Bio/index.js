@@ -18,8 +18,8 @@ export default function Bio() {
         }}
       />
       <p className={styles.text}>
-        Personal website of <a href="https://twitter.com/HG_Luciano">{name}</a>{' '}
-        Proud "owner" of 3 beautiful cats 🐈 I write on software and management
+        Personal website of <a href="https://twitter.com/lucianohgo">{name}</a>{' '}
+        Proud "owner" of 4 beautiful cats 🐈 I write on software and management
       </p>
     </aside>
   );
