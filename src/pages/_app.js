@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import Router from 'next/router';
 import { pageview } from '../lib/tracking';
 import '../styles/global.css';
-import '../styles/solarized-dark.theme.css';
 import '../fonts/fonts.css';
 import { setUpCoreVitalsTracking } from '../lib/performance-metrics';
 import { ThemeProvider } from '../lib/theme';

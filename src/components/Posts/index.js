@@ -11,7 +11,7 @@ export default function Posts({ posts, locale = 'en-US' }) {
         <li className={styles.li} key={id}>
           <article>
             <header>
-              <h3 className={styles.postTitle}>
+              <h3 className={styles.postTitle + ' ' + utilStyles.headingMd}>
                 <Link href="/posts/[id]" as={`/posts/${id}`}>
                   <a>{title}</a>
                 </Link>

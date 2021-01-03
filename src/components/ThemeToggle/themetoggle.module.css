@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ffb200;
+  background-color: var(--accent);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 34px;
@@ -45,11 +45,11 @@ input:checked + .slider:before {
 }
 
 input:checked + .slider {
-  background-color: var(--primary-color);
+  background-color: var(--accent);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px var(--primary-color);
+  box-shadow: 0 0 1px var(--accent);
 }
 
 .slider:before {
