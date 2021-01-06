@@ -6,8 +6,8 @@ export default function MetaTags({ title, description, image }) {
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta name="twitter:site" content="@hg_luciano" />
-      <meta name="twitter:creator" content="@hg_luciano" />
+      <meta name="twitter:site" content="@lucianohgo" />
+      <meta name="twitter:creator" content="@lucianohgo" />
       {image ? (
         <>
           <meta property="og:image" content={image.src} />
