@@ -56,9 +56,8 @@ is important and what it accomplishes:
   - [4. Create tools and an environment that helps people do the right thing](#4-create-tools-and-an-environment-that-helps-people-do-the-right-thing)
 - [Conclusion](#conclusion)
 - [See Also](#see-also)
-    Metrics](#measure-real-user-metrics-and-conversion-metrics)
-  - [Lock: Audits and Continuous
-    Improvement](#lock-audits-and-continuous-improvement)
+  - [Metrics](#measure-real-user-metrics-and-conversion-metrics)
+  - [Lock: Audits and Continuous Improvement](#lock-audits-and-continuous-improvement)
 - [Step Three: Make performance something that the Company
   values](#step-three-make-performance-something-that-the-company-values)
   - [1. Correlate business and performance metrics and display them in strategic
@@ -442,28 +441,28 @@ know](https://twitter.com/hg_Luciano) so we can learn together :)
 ## See Also
 
 1. Set up a Group
-1. [Scaling Agile @
-   Spotify](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
+   1. [Scaling Agile @
+      Spotify](https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf)
 2. Measure and lock:
-1. [Metrics | web.dev](https://web.dev/metrics/)
-2. [What does P-four-nines (p99.99) mean | Andrew
-   Certain](http://blog.tacertain.com/p-four-nines/)
-3. [Lighthouse Evolution: Continuous Integration, new performance score formula,
-   and more](https://web.dev/lighthouse-evolution-cds-2019/)
-4. [Use Lighthouse for performance
-   Budgets](https://web.dev/use-lighthouse-for-performance-budgets/)
-5. [React Production Performance Monitoring | Kent C.
-   Dodds](https://kentcdodds.com/blog/react-production-performance-monitoring)
+   1. [Metrics | web.dev](https://web.dev/metrics/)
+   2. [What does P-four-nines (p99.99) mean | Andrew
+      Certain](http://blog.tacertain.com/p-four-nines/)
+   3. [Lighthouse Evolution: Continuous Integration, new performance score formula,
+      and more](https://web.dev/lighthouse-evolution-cds-2019/)
+   4. [Use Lighthouse for performance
+      Budgets](https://web.dev/use-lighthouse-for-performance-budgets/)
+   5. [React Production Performance Monitoring | Kent C.
+      Dodds](https://kentcdodds.com/blog/react-production-performance-monitoring)
 3. Make performance a part of what the Company values
-1. [Performance is a Feature: Avoid Losing Users and
-   Conversions](/posts/avoid-losing-users-and-conversions)
-2. [Lara Hogan on “Changing Culture at Your
-   Organization](http://designingforperformance.com/changing-culture/)
-3. [Fostering a Web Performance Culture | José M.
-   Pérez](https://jmperezperez.com/fostering-web-performance-culture/)
-4. [Building a Web Performance Culture |
-   Cars.com](https://tech.cars.com/building-a-web-performance-culture-902f34394b50)
-5. [Why Perceived Performance Matters, Part 1: The Perception Of
-   Time](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
-6. [The Low Hanging Fruit of Web
-   Performance](https://mediatemple.net/blog/web-development-tech/low-hanging-fruit-web-performance/)
+   1. [Performance is a Feature: Avoid Losing Users and
+      Conversions](/posts/avoid-losing-users-and-conversions)
+   2. [Lara Hogan on “Changing Culture at Your
+      Organization](http://designingforperformance.com/changing-culture/)
+   3. [Fostering a Web Performance Culture | José M.
+      Pérez](https://jmperezperez.com/fostering-web-performance-culture/)
+   4. [Building a Web Performance Culture |
+      Cars.com](https://tech.cars.com/building-a-web-performance-culture-902f34394b50)
+   5. [Why Perceived Performance Matters, Part 1: The Perception Of
+      Time](https://www.smashingmagazine.com/2015/09/why-performance-matters-the-perception-of-time/)
+   6. [The Low Hanging Fruit of Web
+      Performance](https://mediatemple.net/blog/web-development-tech/low-hanging-fruit-web-performance/)
