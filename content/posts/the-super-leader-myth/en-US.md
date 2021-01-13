@@ -10,6 +10,9 @@ tags:
   - management
   - culture
   - coaching
+appearsIn:
+  - slug: "stop-pointing-fingers"
+    title: "Stop pointing fingers, own your shit"
 ---
 
 I don't know one person who would sit on a single-legged stool. Yet, I know many who believe that a single super-hero leader can sustain companies. You know them too. Heck, you might even be one of them. We want to believe that—it makes the story easier to understand. And we love stories, don't we?
