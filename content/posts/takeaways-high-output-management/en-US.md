@@ -10,6 +10,7 @@ tags:
   - management
   - process
   - software engineering
+  - takeaways
 appearsIn:
   - slug: "everything-is-a-process"
     title: "Everything is a Process: A Takeaway from High Output Management"
