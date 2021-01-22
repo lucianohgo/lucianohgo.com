@@ -13,6 +13,8 @@ tags:
 appearsIn:
   - slug: "takeaways-high-output-management"
     title: "A top 5 takeaways summary of High Output Management"
+  - slug: "takeaways-the-effective-manager-part-one"
+    title: "Key takeaways from the Effective Manager | Part One"
 ---
 
 Whether you're building software, hiring, making breakfast or even creating
@@ -38,10 +40,10 @@ lowest possible cost.**”
 Understanding the basis of production will enable you to achieve that goal and
 Andrew provides us with some of those key elements:
 
-1. [Limiting Step](#limiting-step)
-2. [Objectives and managing through them](#objectives-and-managing-through-them)
-3. [Quality Assurance](#quality-assurance)
-4. [Improving the process](#improving-the-process)
+- [Limiting Step](#limiting-step)
+- [Objectives and managing through them](#objectives-and-managing-through-them)
+- [Quality Assurance](#quality-assurance)
+- [Improving the process](#improving-the-process)
 
 ## Limiting Step
 

@@ -10,9 +10,12 @@ tags:
   - management
   - process
   - software engineering
+  - takeaways
 appearsIn:
   - slug: "everything-is-a-process"
     title: "Everything is a Process: A Takeaway from High Output Management"
+  - slug: "takeaways-the-effective-manager-part-one"
+    title: "Key takeaways from the Effective Manager | Part One"
 ---
 
 > “If you're wrong, you will die. But most companies don't die because they are
