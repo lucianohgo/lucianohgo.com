@@ -29,9 +29,9 @@ I've read many more management books after these, but these are still my favorit
 
 ---
 
-"Hundreds, if not thousands, of managers, describe their "training" this way: '*I got promoted, and they didn't tell me anything about what I was supposed to do or how I was supposed to do it. They just gave me a team and wished me luck.*' [...] The feeling you have that others know what they're doing, but you don't, is wrong. *Almost everyone else doesn't know either.*"
+> "Hundreds, if not thousands, of managers, describe their 'training' this way: '*I got promoted, and they didn't tell me anything about what I was supposed to do or how I was supposed to do it. They just gave me a team and wished me luck.*' [...] The feeling you have that others know what they're doing, but you don't, is wrong. *Almost everyone else doesn't know either.*"
 
-The book already starts with a crucial point: *We're in this together. It's hard. You didn't get prepared. You're left to learn at the job something nearly impossible to learn at the job. Most people go their entire careers without learning it.* And goes on to share some great insights on how to break that cycle:
+The book starts with a crucial point: *We're in this together. It's hard. You didn't get prepared. You're left to learn at the job something nearly impossible to learn at the job. Most people go their entire careers without learning it.* And goes on to share some great insights on how to break that cycle:
 
 1. **How to understand what your role is**
 2. **The Management Trinity; the four (🤔) critical behaviors**
@@ -56,12 +56,12 @@ If you don't have your expected results clearly in your head right now as we spe
 
 ## The Management Trinity; the four (🤔) critical behaviors
 
-"**Success at work is about what you do***–*you are your behaviors." Our behaviors will delimit what we do, and the book focuses on what those should be:
+"**Success at work is about what you do**–you are your behaviors." The book focuses on what those behaviors should be:
 
-1. Getting to Know Our People
-2. Communicating about Performance
-3. Asking for more
-4. Pushing work down
+1. **Getting to Know Our People:** Understanding their strenghts and weakness. Understanding their motivation. What drives them and what they want for their future. Building trust. This is the very foundation that allows us to achieve results. This should be our primary focus as managers.
+2. **Communicating about Performance**: One of the main complaints that people have about their managers is that they are left to guess if they're doing well. Communicating objectively and clearly about performance is critical if we want retention and results. This is the second most importante behavior;
+3. **Asking for more**: We need to be a driving force that pushes our directs forward. That makes them grow and do things they didn't think they could do.
+4. **Pushing work down**: Pushing work down is one way to allow the company to do more. It's a skill we need to learn and to teach. We need to be able to get new responsibilities as we learn and become better at what we do. To do so we need to push work down;
 
 If you're wondering why it's the Management Trinity and there are four critical behaviors, the authors do explain that:
 
@@ -71,11 +71,11 @@ Now let's move on to the tools we can use to have those behaviors, starting with
 
 ## How to do One on Ones
 
-The authors of the book do research and experiments on management. After analyzing the behavior and results of thousands of managers, the model of one-on-ones they recommend is meetings that are:
+The authors of the book do research, running experiments on management. After analyzing the behavior and results of thousands of managers, the one-on-ones they recommend are meetings that are:
 
 1. **Scheduled:** Scheduling means we value that time. It allows people to come prepared.
 2. **Held Weekly:** This gives you more opportunities to meet with your directs. It gives you more chances to help and deal with an issue closer to when it happened;
-3. **That lasts 30 minutes:** 30 minutes is more comfortable to fit into the schedule and gets postponed way less. It's also short enough to direct you to be objective, but long enough to allow us to tackle issues. 30 minutes is also only 1% of your week;
+3. **That lasts 30 minutes:** 30 minutes is more comfortable to fit into the schedule and gets postponed way less. It's also short enough to drive the meeting to be objective, but long enough to allow us to tackle issues. 30 minutes is also only 1% of your week;
 4. **Held with each of our directs:** Do not favor anyone. We need this time to talk with all of them;
 5. **In which the direct's issues are primary:** Always hear more, speak less. Everything our direct has to talk about is primary. We're always more comfortable scheduling extra-time to speak about an issue than our directs are.
 6. **The manager takes notes:** This enables people to focus on what they have to say. It also helps us to listen better.
@@ -84,7 +84,7 @@ The authors of the book do research and experiments on management. After analyzi
 
 The most important thing about feedback is remembering why you're doing this. **The purpose of performance communications (and therefore feedback) is to encourage effective future behavior.** Anything else is about us, not about the situation. Giving feedback is not a way to vent. It's not a way to make us or any other person feel better. It's to encourage effective future behavior.
 
-Feedback needs to come from a place of respect–even better when it comes from trust. People don't wake up one day and say, "I'm going to do a lousy job today. I'm going to mess up."  They usually have good reasons when they mess up. So if we focus our feedback entirely on "what happened" or on intentions, we are bound to make frequent mistakes. **Focus your feedback on behaviors.** Focus your feedback on the future.
+Feedback needs to come from a place of respect–even better when it comes from trust. People don't wake up one day and say, "I'm going to do a lousy job today. I'm going to mess up."  They usually have good reasons when they mess up. So if we focus our feedback entirely on "what happened" or on intentions, we are bound to breed resentment. **Focus your feedback on behaviors.** Focus your feedback on the future.
 
 The author provides a framework to help on giving good feedback:
 
@@ -108,4 +108,4 @@ That's it! In the next part, we will talk about **How to Coach and How to Deleg
 
 ---
 
-- I've written about High Output Management [here](https://lucianohgo.com/posts/takeaways-high-output-management), and [here](https://lucianohgo.com/posts/everything-is-a-process) :)
+*I've written about High Output Management [here](https://lucianohgo.com/posts/takeaways-high-output-management), and [here](https://lucianohgo.com/posts/everything-is-a-process) :)
