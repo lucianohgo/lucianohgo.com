@@ -49,9 +49,9 @@ The need to be right all the time, to have the prevailing answer comes from inse
 
 When we ask questions instead of providing solutions, we allow people to solve the problem, to reach the answer themselves.  When approached correctly, questions can motivate and inspire, generate novel ideas, and change how we perceive a problem.
 
-We can’t fully understand and breakdown all we need to know about how we solve problems. The way we learn how to do this is by doing it. It’s practice, and volume counts a lot. Each time we rob people of the opportunity by jumping to a solution, we’re robbing them of the opportunity to learn.
+The way we learn how to solve problems is by doing it. We can’t fully breakdown all we need to know about the proccess and teach it. It’s learned by practice, and volume counts a lot. Each time we jump to a solution, we’re robbing people of the opportunity to learn.
 
-I often fail at this. I feel I don’t have the time that I should be driving for results. But when I do, I’m always wrong. The long game is about people, so people will always come first.
+I often fail at this. I feel I don’t have the time, that I should be driving for results. But when I do, I’m always wrong. The long game is about people, so people will always come first.
 
 ___
 
