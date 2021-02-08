@@ -1,0 +1,46 @@
+.embed {
+  column-gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  box-shadow: var(--form-shadow);
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  max-width: 700px;
+  margin-bottom: 3rem;
+}
+
+.column {
+  padding: 32px;
+}
+
+.leftColumn {
+  background-color: var(--surface-color);
+  border-radius: 8px;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.input {
+  border: 1px solid;
+  padding: 8px;
+  border-color: rgb(227, 227, 227);
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submit {
+  background-color: var(--primary-color);
+  color: var(--on-primary);
+  padding: 16px;
+  font-size: 1em;
+  border-radius: 16px;
+  border: none;
+  margin: 16px 0px 8px 0px;
+}
+
+.footer {
+  font-size: 0.8rem;
+  font-weight: 400px;
+}

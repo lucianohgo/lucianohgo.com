@@ -28,22 +28,22 @@ I believe now my road to becoming a better manager is one towards more Curiosity
 
 ## I cannot know everything about a subject, ever
 
-When I was a child, I thought my mom and dad knew everything there was to know about life. Fast-forwards to teens, I thought I knew everything there was to know about life. I was very wrong in both accounts–my mom & dad were closer than I was, though.
-
 People can become experts in things and still be surprised by simple things in their craft. The first commercially available wheeled suitcase only emerged in 1987. Think about that for a second. Thousands of people for thousands of years built suitcases, and it never occurred to them to put wheels under the heavy thing people carry around when traveling.
 
-We’re heavily biased. Evolution built us to believe that what we see is all there is. Our knowledge is very limited to the content we learn from and to our experiences. The sooner we genuinely absorb that, the sooner we will open ourselves to other people’s knowledge and experiences.
+We start understanding more about a subject and grossly overestimate how much we know about it. We simply don't know just how much we don't know yet.  We’re heavily biased. Evolution built us to believe that what we see is all there is. Our knowledge is very limited to the content we learn from and to our experiences. The sooner we genuinely absorb that, the sooner we will open ourselves to other people’s knowledge and experiences.
 
 ![Graph showing the Dunning Kruger Effect](/images/curiosity-and-confidence/dunning-kruger.jpg "Graph showing the Dunning Kruger Effect with a ruler showing the maximum amount of knowledge you can acquire in a lifetime is way before your Confidence is larger than when you knew way less")
 *I spent so much time in the peak of mount stupid 🤦🏾‍♂️*
+
+One of the experiences that validates this graph the most is our understanding of life. We're born and assume we don't know anything about life, we rely on people around us to tell us what we should do. Not long after, we reach our teens and suddenly we believe we know everything that is to know about living and about ourselves. Our parents' moderate opinions on topics attack us. Things are black and white and we're always right. It's usually there when life hits us hard with the realization that we're still very ignorant. That we're probably closer to being a child than to being wise. The more experiences we have that humble us, the more we learn. But we never go back to that level of confidence–hopefully.
 
 ## I need to get things right, not to be right
 
 “People who are right a lot, they listen a lot, and people who are right a lot, change their mind a lot,” Jeff Bezos said. “People who are right seek to dis-confirm their most profoundly held convictions, which is very unnatural for humans. Humans mostly, as we go about life, we’re very selective in the evidence we let seep into us, and we like to observe the evidence that confirms our pre-existing beliefs.”
 
-It’s a tragedy to think that the right solution will always be in our heads. It won’t. Yet we must get to it. We admire people who are assertive and want to be so. But even though we often must be stubborn on vision, we can’t get the details right all the time. We need the people who are committed to the problem to pitch in. Again, the problem we need to solve comes first. Our ego can come last.
+It’s a tragedy to think that the right solution will always be in our heads. It won’t. Yet we must get to it. We admire people who are assertive and want to be so. We can’t get the details right all the time. We need the people who are committed to the problem to pitch in. Again, the problem we need to solve comes first. Our egoes can come last.
 
-The need to be right all the time, to have the prevailing answer comes from insecurity. Not from experience, not from wanting the best results. I need to remind myself of that daily, it's not in human nature to seek disproving our own beliefs.
+The need to be right all the time, to have the prevailing answer comes from insecurity. Not from experience, not from wanting the best results. We need to remind ourselves of that daily, it's not in human nature to seek disproving our own beliefs. But, trust me, we must.
 
 ## People grow by solving problems.
 
