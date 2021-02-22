@@ -18,8 +18,10 @@ export default function Bio() {
         }}
       />
       <p className={styles.text}>
-        Personal website of <a href="https://twitter.com/lucianohgo">{name}</a>{' '}
-        Proud "owner" of 4 beautiful cats 🐈 I write on software and management
+        Hey, I'm {name}. I'm an Engineering Manager{' '}
+        <a href="https://www.quintoandar.com.br/">@quintoandar</a>. I write on
+        Building a Career in Tech, Leadership, and creating awesome User
+        Experiences 👋🏾
       </p>
     </aside>
   );

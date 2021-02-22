@@ -5,7 +5,8 @@
 }
 
 .text {
-  max-width: 350px;
+  padding: 8px;
+  padding-left: 16px;
 }
 
 .picture {
