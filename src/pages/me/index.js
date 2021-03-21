@@ -73,7 +73,14 @@ export default function Me() {
         <p>
           I write on a{' '}
           <a href="https://www.getrevue.co/profile/lucianohgo">newsletter</a>{' '}
-          and here on my <a href="/">blog</a>. Check them out 👀
+          and here on my <a href="/">blog</a>. Check them out 👀. I also have an
+          an ongoing form for questions and ideas. Hit me up, the more the
+          merrier:{' '}
+          <b>
+            <a href="https://bit.ly/dear-luciano">
+              https://bit.ly/dear-luciano
+            </a>
+          </b>
         </p>
       </main>
     </Layout>
