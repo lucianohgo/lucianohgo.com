@@ -55,13 +55,14 @@ export default function Me() {
           I'm a Software Engineer from Fortaleza, Brasil 🇧🇷. Sheer luck has
           placed me in some awesome places and introduced me to how Products are
           built. I absolutely love this world and believe Product-Led companies
-          will be called just companies in the future. That everything will be
-          built with the customers in the center. That B2B and B2C will be one
-          in the same.
+          will be called just companies in the future–everything will be built
+          with the customers in the center.
         </p>
         <p>Currently I'm focused on:</p>
         <ul>
-          <li>UX obsession is built and embedded in companies' cultures.</li>
+          <li>
+            How UX obsession is built and embedded in companies' cultures.
+          </li>
           <li>
             How to maintain quality and agility during iterative and fast-paced
             development
@@ -74,8 +75,7 @@ export default function Me() {
           I write on a{' '}
           <a href="https://www.getrevue.co/profile/lucianohgo">newsletter</a>{' '}
           and here on my <a href="/">blog</a>. Check them out 👀. I also have an
-          an ongoing form for questions and ideas. Hit me up, the more the
-          merrier:{' '}
+          ongoing form for questions and ideas. Hit me up, the more the merrier:{' '}
           <b>
             <a href="https://bit.ly/dear-luciano">
               https://bit.ly/dear-luciano
