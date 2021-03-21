@@ -7,7 +7,7 @@ import PostsSection from '../components/Posts';
 import Footer from '../components/Footer/Footer';
 import MetaTags from '../components/MetaTags';
 
-const name = 'Luciano H. Gomes';
+const name = 'lucianohgo';
 const description =
   'Come see and hopefully learn from my thoughts on software engineering and web development :)';
 

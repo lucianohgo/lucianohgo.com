@@ -6,6 +6,10 @@ import { ThemeToggle } from '../ThemeToggle';
 const Heading = ({ home, children }) =>
   home ? <h1>{children}</h1> : <h3>{children}</h3>;
 
+const aboutStyle = {
+  paddingRight: '16px',
+};
+
 export default function Header({ home, name }) {
   return (
     <header className={styles.header}>
@@ -17,11 +21,19 @@ export default function Header({ home, name }) {
             <a>{name}</a>
           </Link>
         </Heading>
-        <ul className={styles.navLinks}>
-          <li>
-            <ThemeToggle />
-          </li>
-        </ul>
+        <div className={styles.table}>
+          <ul className={styles.navLinks}>
+            <li className={styles.navLinksItem} style={aboutStyle}>
+              <Link href="/me">
+                <a>About</a>
+              </Link>
+            </li>
+            <li className={styles.navLinksItem}>
+              {' '}
+              <ThemeToggle />
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

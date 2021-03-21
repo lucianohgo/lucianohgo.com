@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from './layout.module.css';
 import Header from './Header';
 
-const siteTitle = 'Luciano H. Gomes';
+const siteTitle = 'lucianohgo';
 const siteName = 'lucianohgo.com';
 
 export default function Layout({ children, home, name = siteTitle } = {}) {
