@@ -9,6 +9,9 @@ authors:
 tags:
   - career-growth
   - studying
+appearsIn:
+  - slug: "laziness-impatience-and-hubris"
+    title: "Laziness, Impatience and Hubris"
 ---
 
 My late grandma was tenacious, quick-tongued, incredibly bright, and a relentless woman–I loved her very much. She was also a bad cook. Every day for at least 80 years, she would wake up at 4:00 AM sharp and start cooking beans and other foods her family would eat throughout the day. She had 15 children, so that was a lot of cooking. I'd say there aren't many people that have had more practice in cooking than my Grandmother–she certainly got way [more than 10.000 hours in](https://www.6seconds.org/2020/01/25/the-great-practice-myth-debunking-the-10000-hour-rule). YYet the food was never great. I don't want to seem unimpressed–the consistency and dedication she had are beyond what I could do, and she cared a lot–but the food was just not great. To me, that's proof that we can go our whole lives doing things and never really get great at them.

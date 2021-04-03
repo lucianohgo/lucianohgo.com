@@ -9,6 +9,9 @@ authors:
 tags:
   - engineering-process
   - product-management
+appearsIn:
+  - slug: "laziness-impatience-and-hubris"
+    title: "Laziness, Impatience and Hubris"
 ---
 
 ![Zombies chasing a man running](/images/too-much-minimum-too-little-viable/zombies.jpeg)
