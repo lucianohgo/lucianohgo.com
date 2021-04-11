@@ -10,6 +10,9 @@ tags:
   - leadership
   - product-management
   - planning
+appearsIn:
+  - slug: "estimating-sucks"
+    title: "Everybody hates estimating, so why do we do it?"
 ---
 
 What should I work on next? The answer is usually in our carefully built and planned out Road Map. There we have a safe, prioritized, and estimated set of tasks. It makes our decisions easier.
