@@ -20,8 +20,7 @@ export default function Bio() {
       <p className={styles.text}>
         Hey, I'm {name}. I'm an Engineering Manager{' '}
         <a href="https://www.quintoandar.com.br/">@quintoandar</a>. I write on
-        Building a Career in Tech, Leadership, and creating awesome User
-        Experiences 👋🏾
+        Product, Leadership and Building a Career in Tech 👋🏾
       </p>
     </aside>
   );

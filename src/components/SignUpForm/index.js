@@ -5,7 +5,14 @@ function SignUpForm() {
     <div id="revue-embed" className={styles.embed}>
       <div className={styles.leftColumn + ' ' + styles.column}>
         <h2> Subscribe to the Newsletter</h2>
-        <p>Get my latest content and cool things I dig up 🤘🏾</p>
+        <p>
+          A weekly newsletter with tips, ideas and content on Product,
+          Leadership and Building a Career in Tech
+        </p>
+        <p>
+          For ambitious people who want to build better products and grow faster
+          🤘🏾
+        </p>
       </div>
       <form
         action="https://www.getrevue.co/profile/lucianohgo/add_subscriber"

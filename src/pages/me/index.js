@@ -47,7 +47,7 @@ export default function Me() {
         </h2>
         <p>
           <strong>
-            👨🏾‍💻 Engineering Manager{' '}
+            👨🏾‍💻 Senior Engineering Manager{' '}
             <a href="https://quintoandar.com.br">@ QuintoAndar</a>
           </strong>
         </p>
