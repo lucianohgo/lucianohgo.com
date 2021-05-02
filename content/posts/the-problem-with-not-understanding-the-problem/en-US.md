@@ -9,6 +9,9 @@ authors:
 tags:
   - process
   - product-management
+appearsIn:
+  - slug: "what-is-quality-after-all"
+    title: "What's Software Quality, After All?"
 ---
 
 One clear difference between inexperienced and experienced engineers is the eagerness with how they approach a problem. [When we're starting, we're full of certainties](/posts/curiosity-and-confidence), we hear the problem and jump to a solution right away. We go to our "best practices" toolbox and start pulling out all our hyped-up technologies. On the other hand, battle-hardened engineers usually take a step back and go searching for context first. They know that **understanding the problem is the most critical part of creating software.**
