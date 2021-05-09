@@ -10,6 +10,9 @@ tags:
   - leadership
   - meetings
   - one-on-ones
+appearsIn:
+  - slug: "stop-informing-start-collaborating"
+    title: "Stop Informing, Start Collaborating"
 ---
 
 You and your employee enter the room. "Hey, how are you?", "Good, and you?", "Great." She's anxious. She doesn't know what she should talk about. An awkward silence ensues. Now you're anxious. You jump to your topics with little thought. You discuss how the projects are going, maybe something about life. The meeting ends, and you both leave the room feeling like that was not what it was supposed to be. She still has many doubts about her career, about the priority changes, about the company's changes, about what's coming next–all things that you didn't even know were making her eager.

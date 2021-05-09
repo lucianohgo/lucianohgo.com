@@ -1,7 +1,7 @@
 ---
 title: 'Stop Informing, Start Collaborating'
 date: '2021-05-09'
-description: "Email → Slack → Notion → Code → Twitter → LinkedIn → Back to Google Meet/Zoom room Email → Slack → Notion → Code → Twitter → LinkedIn. That's what people are doing while we're presenting our well-thought-out and beautiful presentation on that new Framework, Project or Update we have. These meetings were hard enough in person. Now that people can tune us out, we should think about them quite literally as burning the company's cash."
+description: "Informational meetings are incredible time-wasters. They exist out of habit and mistrust. Avoid meeting fatigue by allowing people to engage and collaborate during meetings. Do pre-work and follow-up. But, most of all, respect people's times."
 cover: '/images/stop-informing-start-collaborating/cafe-man.jpeg'
 coverAlt: 'Man with a Mac working in a Café. The man has multiple apps open and is doing a command+tab shifting from one to the other'
 authors:
@@ -59,3 +59,9 @@ If this seems like a lot of work to you, consider that this saves time for every
 ---
 
 Be mindful of people's times. Show you care. And they will repay you with great results and more engagement in and outside meetings. Don't want to do this? That's fine. Just get a pile of cash big enough as the number of hours you're wasting, burn it, and don't schedule that meeting. Your company will be better off. At least you're not fatiguing people further.
+
+I've also written on meetings in the past in these articles:
+
+- [Are you having open and meaningful one on ones?](/posts/meaningful-one-on-ones)
+- [Enabling Free Discussion and the importance to Disagree and Commit](/posts/effective-meetings-free-discussion-disagree-and-commit)
+- [What does a great outcome look like for a meeting?](/posts/great-outcomes-from-meetings)

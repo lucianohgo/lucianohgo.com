@@ -9,6 +9,8 @@ authors:
 appearsIn:
   - slug: "effective-meetings-free-discussion-disagree-and-commit"
     title: "Enabling Free Discussion and the importance to Disagree and Commit"
+  - slug: "stop-informing-start-collaborating"
+    title: "Stop Informing, Start Collaborating"
 tags:
   - management
   - meetings
@@ -184,4 +186,5 @@ thank you for respecting the sanctity of their time.
 
 This post is part of a series about meetings. I've also written on:
 
+- [Stop Informing, Start Collaborating](/posts/stop-informing-start-collaborating)
 - [Enabling Free Discussion and the importance to Disagree and Commit](/posts/effective-meetings-free-discussion-disagree-and-commit)

@@ -9,6 +9,8 @@ authors:
 appearsIn:
   - slug: "great-outcomes-from-meetings"
     title: "What does a great outcome look like for a meeting?"
+  - slug: "stop-informing-start-collaborating"
+    title: "Stop Informing, Start Collaborating"
 tags:
   - management
   - meetings
@@ -158,4 +160,5 @@ Commit](https://en.wikipedia.org/wiki/Disagree_and_commit) leadership principle.
 
 This post is part of a series about meetings. I've also written on:
 
+- [Stop Informing, Start Collaborating](/posts/stop-informing-start-collaborating)
 - [What does a great outcome look like for a meeting?](/posts/great-outcomes-from-meetings)
