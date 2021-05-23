@@ -10,7 +10,13 @@
 }
 
 .column {
-  padding: 32px;
+  padding: 24px 16px;
+}
+
+@media (min-width: 600px) {
+  .column {
+    padding: 32px;
+  }
 }
 
 .leftColumn {
@@ -36,10 +42,10 @@
   font-size: 1em;
   border-radius: 16px;
   border: none;
-  margin: 16px 0px 8px 0px;
+  margin: 16px 0 8px 0;
 }
 
 .footer {
   font-size: 0.8rem;
-  font-weight: 400px;
+  font-weight: 400;
 }

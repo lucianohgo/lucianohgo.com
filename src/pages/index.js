@@ -6,6 +6,7 @@ import styles from './home.module.css';
 import React from 'react';
 import SignUpForm from '../shared/components/SignUpForm';
 import MetaTags from '../shared/components/MetaTags';
+import { Profiles } from '../shared/components/Footer/Profiles';
 
 const name = 'lucianohgo';
 const description =
@@ -42,11 +43,12 @@ export default function Home() {
               </a>
               , work on making living and finding a home awesome at{' '}
               <a href="https://quintoandar.com.br">QuintoAndar</a> and try to
-              help as many people as I can
+              help as many people as I can.
             </h2>
-            <SignUpForm className={styles.form} />
+            <Profiles />
           </div>
         </section>
+        <SignUpForm className={styles.form} />
       </Layout>
     </>
   );
