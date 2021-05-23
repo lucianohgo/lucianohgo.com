@@ -357,7 +357,7 @@ Find these and start solving them; some common ones are:
    available](https://caniuse.com/brotli). Use Brotli when you can, for all
    other cases, make sure you're using Gzip
 2. Improving your Code Splitting:
-3. Optimize images, fonts, javascript, CSS, etc: Minify what you can, remove
+3. Optimize images, shared.fonts, javascript, CSS, etc: Minify what you can, remove
    parts that you don't use, encode and size images appropriately;
 4. Use a CDN: Content Delivery Networks (CDNs) work great for serving static
    files and will keep that done close to your users

@@ -58,7 +58,7 @@ When a component does not need to render when it's props change, we can let
 React know that so that it won't try to render from that component down unless
 it has to.
 
->Note that the advantage of Memoizing components only pays off when rendering is
+>Note that the advantage of Memoizing shared.components only pays off when rendering is
 >expensive. For simple children trees it can be quicker to just do the render
 >compared to the overhead of comparing props.
 
@@ -67,7 +67,7 @@ it has to.
 React comes with an awesome
 [HoC](https://reactjs.org/docs/higher-order-components.html):
 [`React.memo`](https://reactjs.org/docs/react-api.html#reactmemo) that allows us
-to  memoize function components:
+to  memoize function shared.components:
 
 ```jsx
 // When we use the HoC without supplying a comparation function it

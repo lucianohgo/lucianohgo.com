@@ -1,10 +1,11 @@
 import React, { useMemo } from 'react';
-import Head from 'next/head';
-import { getAllPostIds, getPostData } from '../../lib/posts';
-import Layout from '../../components/Layout';
-import MetaTags from '../../components/MetaTags';
-import ContentArticle from '../../components/ContentArticle';
-import ContentAside from '../../components/ContentAside';
+import Layout from '../../shared/components/Layout';
+import MetaTags from '../../shared/components/MetaTags';
+import ContentArticle from '../../blog/components/Article';
+import ContentAside from '../../blog/components/ContentAside';
+import { getAllPostIds, getPostData } from '../../blog/lib/posts';
+import { PageHead } from '../../shared/components/PageHead';
+import styles from './posts.module.css';
 
 const GITHUB_USERNAME = 'lucianohgo';
 const GITHUB_REPO_NAME = 'lucianohgo.com';
@@ -25,9 +26,9 @@ export default function Post({ id, postData }) {
 
   return (
     <Layout>
-      <Head>
+      <PageHead>
         <title>{postData.title}</title>
-      </Head>
+      </PageHead>
       <MetaTags
         title={postData.title}
         description={postData.description}

@@ -19,7 +19,7 @@ fields or how to include something. On the template you can find some hints on w
 
 ### Adding links to your pages
 
-We have [author tags](./src/components/ContentAuthors) with some other find you can add to the [contributors file](.all-contributorsrc):
+We have [author tags](src/blog/components/Authors) with some other find you can add to the [contributors file](.all-contributorsrc):
 
 1. `twitter`: Twitter
 2. `linkedin`: Github

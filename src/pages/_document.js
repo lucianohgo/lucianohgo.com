@@ -1,5 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
-import { gaTrackingId } from '../lib/tracking';
+import { gaTrackingId } from '../tracking';
 
 export default class HomepageDocument extends Document {
   static async getInitialProps(ctx) {

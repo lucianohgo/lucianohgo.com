@@ -1,0 +1,244 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: var(--bg-color);
+  color: var(--on-background);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: var(--heading-color);
+}
+
+strong {
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: inherit;
+  margin: 0;
+  min-width: 25rem;
+  width: 100%;
+}
+
+tr {
+  background: transparent;
+  border-bottom: 1px solid #dadce0;
+  border-top: 0;
+  height: 48px;
+}
+
+td {
+  line-height: 1.5;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+
+/* for image caption */
+img + em {
+  margin-top: 0.5em;
+  color: lightslategray;
+  font-style: normal;
+  display: inherit;
+  text-align: center;
+  font-size: 85%;
+}
+
+.media-wrapper + em {
+  margin-top: 0.5em;
+  color: lightslategray;
+  font-style: normal;
+  display: inherit;
+  text-align: center;
+  font-size: 85%;
+}
+
+/* for table caption */
+table + p {
+  margin-top: 0.5em;
+  color: lightslategray;
+  font-style: normal;
+  display: inherit;
+  text-align: center;
+  font-size: 85%;
+}
+
+blockquote {
+  margin: 1em 0;
+  padding: 0.75rem 1rem;
+  background: var(--surface-color);
+  color: var(--on-surface);
+  border-left: 0.3rem solid var(--primary-variant);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.anchor {
+  stroke: var(--primary-color);
+  margin-left: -26px;
+  padding-right: 6px;
+  visibility: hidden;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  background: #999;
+}
+
+h2 .anchor {
+  visibility: hidden;
+}
+
+h2:hover .anchor {
+  visibility: visible;
+  stroke: var(--secondary-color);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary-color);
+}
+
+.nav-menu {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 16px;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-logo {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 650px) {
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: var(--surface-color);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.8);
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+:root {
+  color-scheme: light dark;
+  --primary-color: #05668d;
+  --primary-variant: #033d55;
+  --secondary-color: #02c39a;
+  --secondary-variant: #01755c;
+  --on-primary: #e6f0f4;
+  --on-secondary: #424242;
+  --on-background: #424242;
+  --form-shadow: rgba(210, 214, 220, 0.5) 0px 2px 15px 0px;
+  --on-surface: #424242;
+  --bg-color: #fff;
+  --surface-color: rgb(249, 250, 251);
+  --heading-color: #292922;
+  --accent: #ffb200;
+}
+
+[data-theme='dark'] {
+  --primary-color: #a2dcf3;
+  --primary-variant: #e6f0f4;
+  --secondary-color: #02c39a;
+  --secondary-variant: #e6f0f4;
+  --on-primary: #1c1d1d;
+  --on-secondary: #424242;
+  --on-background: #fff;
+  --on-surface: #fff;
+  --bg-color: #1c1d1d;
+  --form-shadow: rgba(70, 70, 70, 0.635) 0px 2px 15px 0px;
+  --surface-color: rgb(54, 60, 72);
+  --heading-color: #ffffff;
+  --accent: #02c39a;
+}

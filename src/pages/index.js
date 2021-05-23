@@ -1,40 +1,53 @@
-import Head from 'next/head';
-import Layout from '../components/Layout';
-import Bio from '../components/Bio';
-import { getSortedPostsData } from '../lib/posts';
+import Link from 'next/link';
+import { PageHead } from '../shared/components/PageHead';
+import Layout from '../shared/components/Layout';
+import Picture from '../shared/components/Picture';
 import styles from './home.module.css';
-import PostsSection from '../components/Posts';
-import Footer from '../components/Footer/Footer';
-import MetaTags from '../components/MetaTags';
+import React from 'react';
+import SignUpForm from '../shared/components/SignUpForm';
+import MetaTags from '../shared/components/MetaTags';
 
 const name = 'lucianohgo';
 const description =
-  'Come see and hopefully learn from my thoughts on software engineering and web development :)';
+  "Hey, I'm Lu 👋🏾. I write at Lu's Newsletter, work on making living and finding a home awesome at QuintoAndar and try to help as many people as I can";
 
-export default function Home({ content: { posts, bookSummaries } }) {
+export default function Home() {
   return (
-    <Layout home name={name}>
-      <Head>
-        <title>{name}</title>
-      </Head>
-      <MetaTags title={name} description={description} />
-      <Bio />
-      <main>
-        <PostsSection posts={posts} />
-      </main>
-      <Footer className={styles.footer} />
-    </Layout>
+    <>
+      <Layout>
+        <PageHead />
+        <MetaTags name={'lucianohgo'} description={description} />
+        <section className={styles.container}>
+          <div className={styles.about}>
+            <div className={styles.avatar}>
+              <Picture
+                file="profile"
+                imgProps={{
+                  className: `${styles.thumb}`,
+                  alt: name,
+                }}
+              />
+            </div>
+            <h1>
+              Hey, I'm{' '}
+              <Link href="/me">
+                <a>Lu</a>
+              </Link>{' '}
+              😊
+            </h1>
+            <h2>
+              I write at{' '}
+              <a href="https://www.getrevue.co/profile/lucianohgo">
+                this newsletter
+              </a>
+              , work on making living and finding a home awesome at{' '}
+              <a href="https://quintoandar.com.br">QuintoAndar</a> and try to
+              help as many people as I can
+            </h2>
+            <SignUpForm className={styles.form} />
+          </div>
+        </section>
+      </Layout>
+    </>
   );
-}
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
-
-  return {
-    props: {
-      content: {
-        posts: allPostsData,
-      },
-    },
-  };
 }

@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Layout from '../../components/Layout';
-import MetaTags from '../../components/MetaTags';
+import Layout from '../../shared/components/Layout';
+import MetaTags from '../../shared/components/MetaTags';
 import profiles from '../../profiles';
+import { Footer } from '../../shared/components/Footer';
 
 const hintStyle = {
   fontSize: '16px',
@@ -83,6 +84,7 @@ export default function Me() {
           </b>
         </p>
       </main>
+      <Footer />
     </Layout>
   );
 }

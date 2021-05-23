@@ -1,4 +1,30 @@
-.footer {
-  margin-top: 4.5rem;
-  padding-top: 1.75rem;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.avatar {
+  width: 100%;
+}
+
+.thumb {
+  width: 5rem;
+  border-radius: 50%;
+  display: inline;
+}
+
+.form {
+  margin-top: 2rem;
 }
