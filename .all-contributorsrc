@@ -53,6 +53,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "leandrotk",
+      "name": "TK",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5835798?v=4",
+      "profile": "http://leandrotk.github.io",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
