@@ -8,16 +8,23 @@ import SignUpForm from '../shared/components/SignUpForm';
 import MetaTags from '../shared/components/MetaTags';
 import { Profiles } from '../shared/components/Footer/Profiles';
 
-const name = 'lucianohgo';
+const name = "lucianohgo's Homepage";
 const description =
   "Hey, I'm Lu 👋🏾. I write at Lu's Newsletter, work on making living and finding a home awesome at QuintoAndar and try to help as many people as I can";
+
+const image = {
+  src: '/image/profile.jpeg',
+  alt: "lucianhgo's Profile",
+};
 
 export default function Home() {
   return (
     <>
       <Layout>
-        <PageHead />
-        <MetaTags name={'lucianohgo'} description={description} />
+        <PageHead>
+          <title>{name}</title>
+        </PageHead>
+        <MetaTags name={'lucianohgo'} description={description} image={image} />
         <section className={styles.container}>
           <div className={styles.about}>
             <div className={styles.avatar}>

@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Layout from '../../shared/components/Layout';
 import MetaTags from '../../shared/components/MetaTags';
 import profiles from '../../profiles';
-import { Footer } from '../../shared/components/Footer';
 
 const hintStyle = {
   fontSize: '16px',
@@ -17,15 +16,15 @@ export default function Me() {
         <title>About @lucianohgo</title>
       </Head>
       <MetaTags
-        title={'About @lucianohgo'}
-        description={'Page about me :)'}
+        title="About @lucianohgo"
+        description="Page about me :)"
         image="/images/me/me.jpeg"
       />
       <main>
         <h1>About Me</h1>
         <p>Hey, I'm Luciano H. Gomes (@lucianohgo) 👋🏾 </p>
         <Image
-          alt={'Me and my girlfriend in the best time of the year'}
+          alt="Me and my girlfriend in the best time of the year"
           width={1080}
           height={800}
           src="/images/me/me.jpeg"
@@ -84,7 +83,6 @@ export default function Me() {
           </b>
         </p>
       </main>
-      <Footer />
     </Layout>
   );
 }
