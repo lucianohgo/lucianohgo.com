@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-plugin-prismjs": "^2.0.1",
-    "date-fns": "^2.21.3",
+    "date-fns": "^2.22.1",
     "gray-matter": "^4.0.2",
     "next": "^10.2.3",
     "prismjs": "^1.21.0",
