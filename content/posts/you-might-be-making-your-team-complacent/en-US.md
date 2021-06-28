@@ -10,6 +10,7 @@ tags:
   - management
   - leadership
   - effective-teams
+  - dissent
 ---
 
 Tightness. Muscles tense up. Your face gets hot. Your breathing gets faster. You start to feel defensive, start thinking about what you need to say in return before they're done talking. If you're like most people, this is how your body reacts to people challenging you directly or giving you harsh feedback on something you shared. Our bodies seek confirmation. They don't seek dissent. Dissent feels painful, while having people agree with us makes us like them even more. We're [incredibly biased](https://www.verywellmind.com/what-is-a-confirmation-bias-2795024). We view people who agree with us as being more intelligent. We like them more. We want them around. It's harder to feel that way about people who challenge our ideas, who challenge our views of the world. And that's the main reason a lot of leaders fail.
