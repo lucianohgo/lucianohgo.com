@@ -1,0 +1,46 @@
+---
+title: "The Lure of the Tech Lead Manager and Why You Should Avoid it"
+date: "2021-08-01"
+description: "Engineering Management is a tough job. No wonder we find clever ways to avoid doing it. Playing a Senior Engineer and Tech Lead is one of the most common ones. Don't agree? Read on."
+cover: '/images/the-lure-of-the-tech-lead-manager-and-why-you-should-avoid-it/its-a-trap.jpeg'
+coverAlt: "It's a Trap Meme"
+authors:
+  - lucianohgo
+tags:
+  - management
+  - leadership
+  - engineering
+  - tech-leadership
+---
+
+There's this never-ending debate on the Software Engineering community on whether Engineering Managers should be heavily involved in technical decisions or not. On the one hand, Engineering Managers **need** to develop their people, and on every technical decision they make, they steal a development opportunity from their Directs. Hell, in many cases, when we give our opinions in a discussion, we unknowingly tip the scale to our own opinion, something that got a cute acronym: [HIPPO](https://whatis.techtarget.com/definition/HiPPOs-highest-paid-persons-opinions). But, on the other hand, Engineering Managers **need** to be responsible for their team's Technical Excellence. If they're too far from Engineering decisions–or don't come from a technical background–their technical knowledge will fade. Eventually, they'll have no other option but to abdicate their responsibility.
+
+Enters the Tech Lead Manager (TLM), an Engineering Manager who also plays the role of a Tech Lead and the solution to all our problems. But, with a tiny caveat: [it's a trap](https://lethain.com/tech-lead-managers/) to everyone involved. Here's how:
+
+1. **Relying on TLMs is a trap to the company:** It is arduous finding people who excel both as a Tech Lead and an Engineer Manager. There aren't that many in the market. It's common to hire someone who either fails at managing and developing their people or making good technical leadership. TLM is a tough chair to fill and to sit on.
+2. **Being a TLM is a trap to the TLM:** Being a TLM is not only very hard, but it's also usually a dead end. The most common paths forward in the career are either Staff Engineer or Group Engineering Manager. In the position of a TLM, it's hard to develop critical skills for both these positions.
+3. **Having a TLM is a trap to the team:** It's common for Tech Lead managers to rob the team of opportunities to grow. TLMs end up working and making critical technical decisions on projects that would otherwise be great opportunities to level up the engineers in the team. In organizations that rely heavily on TLMs, it's common to see a lack of Senior+ Engineers, and it's not hard to understand why.
+
+You probably noticed that there are a lot of "common," "usually," and "hard" s there. I'm in no way saying that all TLMs are bad for their company's, themselves, and their teams. There are situations, particularly in smaller (3 people) teams, where it makes sense and there are TLMs that are brilliant at their craft.  I'm saying that:
+
+1. It's tough to scale that role;
+2. Even in smaller teams, we should focus on making it a temporary (>6 months) position and
+3. That it's more common to create rather than solve problems.
+
+Yet, believing this is the easiest way to scale up engineering is widespread in growing companies. No trap is a good trap if it doesn't have a strong lure.
+
+## The Lures of the Tech Lead Manager
+
+*"My team is made of Junior and inexperienced Engineers. If I don't make the technical decisions, our product will suck."* The passive voice in this sentence exposes a lack of ownership for building the team. It shows that, to this person, building a team that's up to the challenges they have is not something ***we can and should*** focus on. There's a gap in the team for a Senior Engineer you're trying to fill. If you're focusing on developing these people's careers–doing your job as a manager and a leader–you won't have the time to do it appropriately. So filling that gap, either through training one or more of the engineers or hiring someone, should be the primary mandate, and you won't be able to focus on that if you're playing Senior Software Engineer.
+
+*"It's an easy way to start learning as an Engineering Manager."* It's not. The skills needed to be a good Engineering Manager are seldom why people fail to do that job. It's their values and consequently how they apply their times that make them fall short. Being a leader is challenging and implies doing a lot of uncomfortable work. When people feel like they need to be the most senior engineer, they will find excuses to avoid that work and focus on things they already know how to do and that are easier for them. It creates excuses for that Engineering Manager not to grow and do the work that only they will do.
+
+## Ok, so is the solution to abdicate, then?
+
+Yes and no. Abdicating the responsibility for the technical output of the team is a trap as well. Engineering Management is still a technical role at heart. You need to drive the team to excellence. But what you do need to abdicate is the thought that you need to make the decisions to be responsible. An Engineering Manager's primary focus is the team. Preparing and coaching the team is their work.  When we have a well-prepared team, the score will take care of itself.
+
+> Control, we discovered, only works with a competent workforce that understands the organization's purpose. Hence, as control is divested, both technical competence and organizational clarity need to be strengthened.
+>
+> –Marquet, L. David. Turn the Ship Around!
+
+Once we divest control, we need to do that job harder. In return, we get stronger and more motivated teams. It's not an easy job, but it's the Engineering Manager's actual job.
