@@ -54,7 +54,7 @@ Let's take a step back to illustrate this. Say you're advising a friend on buyin
 ![Ferrarri vs. Minivan](/images/what-is-quality-after-all/ferrari-vs-minivan.jpg)
 *If you went straight to the Ferrari, think again.*
 
-Your friend's context matters a lot here. *What's the primary use of the car? What are the conditions of the streets they'll be using the car on? What's their budget? How many people are using the cars? Will they be making family trips?* You get the gist. [Understanding the Problem well is critical](http://posts/the-problem-with-not-understanding-the-problem). For the company making these cars: if their target customer is the Minivan buying one, they don't need to learn how to build a motor to get the car to 340 km/h. It simply doesn't matter. The focus is elsewhere. So don't focus your engineering efforts on the technologies and patterns you want to add to your resume. Focus on what matters most for your users and build that with as little Cruft as possible.
+Your friend's context matters a lot here. *What's the primary use of the car? What are the conditions of the streets they'll be using the car on? What's their budget? How many people are using the cars? Will they be making family trips?* You get the gist. [Understanding the Problem well is critical](/posts/the-problem-with-not-understanding-the-problem). For the company making these cars: if their target customer is the Minivan buying one, they don't need to learn how to build a motor to get the car to 340 km/h. It simply doesn't matter. The focus is elsewhere. So don't focus your engineering efforts on the technologies and patterns you want to add to your resume. Focus on what matters most for your users and build that with as little Cruft as possible.
 
 ## So what is it?
 
