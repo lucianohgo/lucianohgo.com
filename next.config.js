@@ -1,4 +1,5 @@
 module.exports = {
+  productionBrowserSourceMaps: true,
   images: {
     domains: [
       'pbs.twimg.com', // Twitter Profile Picture
