@@ -21,10 +21,10 @@ Enters the Tech Lead Manager (TLM), an Engineering Manager who also plays the ro
 2. **Being a TLM is a trap to the TLM:** Being a TLM is not only very hard, but it's also usually a dead end. The most common paths forward in the career are either Staff Engineer or Group Engineering Manager. In the position of a TLM, it's hard to develop critical skills for both these positions.
 3. **Having a TLM is a trap to the team:** It's common for Tech Lead managers to rob the team of opportunities to grow. TLMs end up working and making critical technical decisions on projects that would otherwise be great opportunities to level up the engineers in the team. In organizations that rely heavily on TLMs, it's common to see a lack of Senior+ Engineers, and it's not hard to understand why.
 
-You probably noticed that there are a lot of "common," "usually," and "hard" s there. I'm in no way saying that all TLMs are bad for their company's, themselves, and their teams. There are situations, particularly in smaller (3 people) teams, where it makes sense and there are TLMs that are brilliant at their craft.  I'm saying that:
+You probably noticed that there are a lot of "common," "usually," and "hard" s there. I'm in no way saying that all TLMs are bad for their company's, themselves, and their teams. There are situations, particularly in smaller (3-4 people) teams, where it makes sense and there are TLMs that are brilliant at their craft. There are also people that excel at having this responsibility.  I'm saying that:
 
 1. It's tough to scale that role;
-2. Even in smaller teams, we should focus on making it a temporary (>6 months) position and
+2. Even in smaller teams, we should consider making it a temporary position with a later decision on which side of the career (technical or manager) the TLM wants to go on and
 3. That it's more common to create rather than solve problems.
 
 Yet, believing this is the easiest way to scale up engineering is widespread in growing companies. After all, no trap is a good trap if it doesn't have a strong lure.
